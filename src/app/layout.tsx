@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import head from "next/head";
 
 const inter = Inter(
   { subsets: ["cyrillic"] }
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>)   {
   return (
     <html lang="ru">
+      <head>
+        <meta name="yandex-verification" content="b4c10d78210ffc04" />
+      </head>
       <body className={inter.className + ' bg-background text-gray-400 text-base overflow-x-hidden'}>
         <div className="__next">
           <Header />
