@@ -6,10 +6,7 @@ import Footer from "@/components/Footer/Footer";
 import head from "next/head";
 
 const inter = Inter(
-  { 
-    subsets: ["cyrillic"]
-    adjustFontFallback: false,
-  }
+  { subsets: ["cyrillic"] }
 );
 
 export const metadata: Metadata = {
