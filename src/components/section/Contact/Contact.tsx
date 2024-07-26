@@ -15,15 +15,15 @@ const Contact = () => {
             <ul>
               <li className={styles.contactItem}>
                 <span className={styles.contactSpan}>Менеджер: </span>
-                +7 939 101 99 79
+                +7 978 588-906-48, +7 961 685-32-12
               </li>
               <li className={styles.contactItem}>
                 <span className={styles.contactSpan}>WhatsApp: </span>
-                +7 938 101 99 79
+                +7 978 588-906-48, +7 961 685-32-12
               </li>
               <li className={styles.contactItem}>
                 <span className={styles.contactSpan}>Viber: </span>
-                +7 938 101 99 79
+                +7 978 588-906-48, +7 961 685-32-12
               </li>
               <li className={styles.contactItem}>
                 <span className={styles.contactSpan}>Email: </span>
