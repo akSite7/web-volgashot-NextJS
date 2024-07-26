@@ -28,7 +28,7 @@ const Other = () => {
   const getOther = useOthers()
 
   return (
-    <section className={styles.assortment} id="assortment">
+    <section className={styles.assortment}>
       <div className={styles.assortmentContainer}>
         <h2 className={styles.assortmentTitle}>Прочее</h2>
         <p className={styles.assortmentText}>Прочие товары у нас в наличии</p>
