@@ -1,0 +1,35 @@
+.inform {
+  @apply w-full pt-10 pb-10 md:pb-20;
+}
+
+.informContainer {
+  @apply container mx-auto;
+}
+
+.informGrid {
+  @apply pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6;
+}
+
+.informCard {
+  @apply  flex flex-col items-center gap-2;
+}
+
+.informTitle {
+  @apply text-xl pt-5 font-medium text-white text-center;
+}
+
+.informText {
+  @apply text-center max-w-96 text-gray-500;
+}
+
+.informMap {
+  @apply rounded-lg mx-auto mt-10;
+}
+
+.informTitleMain {
+  @apply text-3xl md:text-4xl pt-10 text-gray-50 font-medium;
+}
+
+.informDescription {
+  @apply pt-5 text-lg text-gray-500;
+}

@@ -1,0 +1,19 @@
+.contact {
+  @apply w-full pt-10 pb-10 md:pb-20;
+}
+
+.contactContainer {
+  @apply container mx-auto;
+}
+
+.contactTitle {
+  @apply mt-10 mb-10 text-3xl md:text-6xl text-gray-50 font-medium;
+}
+
+.contactItem {
+  @apply text-lg leading-loose;
+}
+
+.contactSpan { 
+  @apply inline-block w-36;
+}

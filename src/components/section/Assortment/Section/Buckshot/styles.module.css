@@ -1,0 +1,31 @@
+.assortmentContainer {
+  @apply container mx-auto;
+}
+
+.assortmentContent {
+  @apply grid pt-8 pb-10 gap-20 grid-cols-4;
+}
+
+.assortmentTitle {
+  @apply text-3xl md:text-6xl pt-8 text-gray-50 font-medium;
+}
+
+.assortmentText {
+  @apply text-lg text-gray-500 pt-8;
+}
+
+.assortmentTitleCard {
+  @apply text-xl pt-2 text-gray-50;
+}
+
+.assortmentTextCard {
+  @apply text-sm pt-1 max-h-7;
+}
+
+.assortmentPriceCard {
+  @apply text-xl pt-5;
+}
+
+.assortmentImageCard {
+  @apply rounded-md;
+}

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.tab {
+  margin-top: 20px;
+}
+
+.tab-content {
+  display: none;
+  
+}
+
+#tab-btn-1:checked~#content-1,
+#tab-btn-2:checked~#content-2,
+#tab-btn-3:checked~#content-3 {
+  display: block;
+}
+
+.tab > input[type="radio"] {
+  display: none;
+}
+
+.tab > input[type="radio"]:checked + label {
+  color: #434190;
+}
+

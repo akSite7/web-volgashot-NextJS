@@ -1,0 +1,11 @@
+.assortment {
+  @apply w-full py-6;
+}
+
+.assortmentContainer {
+  @apply container mx-auto;
+}
+
+.assortmentTitle {
+  @apply text-3xl md:text-6xl text-gray-50 font-medium;
+}

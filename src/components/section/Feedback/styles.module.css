@@ -1,0 +1,27 @@
+.feedback {
+  @apply w-full pt-10 pb-10 md:pb-20;
+}
+
+.feedbackContainer {
+  @apply container mx-auto;
+}
+
+.feedbackTitle {
+  @apply text-2xl mt-10 mb-10 md:text-6xl text-gray-50 font-medium;
+}
+
+.feedbackButton {
+  @apply w-full sm:w-auto px-4 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
+}
+
+.feedbackWarning {
+  @apply max-w-[1100px] text-[11px] pt-3 text-center leading-tight block;
+}
+
+.feedbackContent {  
+  @apply grid grid-cols-5;
+}
+
+.feedbackInput {
+  @apply w-[230px] h-[50px] text-center bg-opacity-30 bg-black;
+}
