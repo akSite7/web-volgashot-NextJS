@@ -39,7 +39,7 @@ const Inform = () => {
           <br />Оптовые продажи обсуждаются отдельно.
         </p>
         <div>
-          <iframe className={styles.informMap} src="https://yandex.ru/map-widget/v1/?um=constructor%3A92b6eaf7aeeef7a05e46dab06fba460a19fa79c3730e02b7c9ff151b84ec4583&amp;source=constructor" width="1440" height="360" frameBorder="0"></iframe>
+          <iframe className={styles.informMap} src="https://yandex.ru/map-widget/v1/?um=constructor%3A92b6eaf7aeeef7a05e46dab06fba460a19fa79c3730e02b7c9ff151b84ec4583&amp;source=constructor" width="1440" height="360"></iframe>
         </div>
         <ul className={styles.informGrid}>
           {getInform.map((item: Shot, index) => (
