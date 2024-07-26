@@ -1,15 +1,13 @@
 Sitemap: https://www.volgashot.ru/sitemap.xml
 
 User-agent: yandex
-Allow: https://www.volgashot.ru
-Disallow: https://www.volgashot.ru/fractions
-Disallow: https://www.volgashot.ru/buckshots
-Disallow: https://www.volgashot.ru/other
-Disallow: https://www.volgashot.ru/contacts
+Disallow: /fractions/
+Disallow: /buckshots/
+Disallow: /other/
+Disallow: /contacts/
 
 User-agent: Googlebot
-Allow: https://www.volgashot.ru
-Disallow: https://www.volgashot.ru/fractions
-Disallow: https://www.volgashot.ru/buckshots
-Disallow: https://www.volgashot.ru/other
-Disallow: https://www.volgashot.ru/contacts
+Disallow: /fractions/
+Disallow: /buckshots/
+Disallow: /other/
+Disallow: /contacts/
