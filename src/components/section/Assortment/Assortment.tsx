@@ -11,7 +11,9 @@ const Assortment = () => {
   return (
     <section className={styles.assortment}>
       <div className={styles.assortmentContainer}>
-        <Badge>🛒 Наш ассортимент</Badge>
+        <h2>
+          <Badge>🛒 Наш ассортимент</Badge>
+        </h2>
         <div className={styles.assortmentContent}>
           <div className="tab">
             <input defaultChecked className="pointer" type="radio" name="tab-btn" id="tab-btn-1" value=""/>
