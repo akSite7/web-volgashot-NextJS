@@ -6,18 +6,18 @@ import styles from "./styles.module.css";
 
 const Contact = () => {
   return (
-    <section className={styles.contact}>
+    <section itemscope itemtype="https://www.volgashot.ru/contacts" className={styles.contact}>
       <div className={styles.contactContainer}>
         <Badge>📞 Связь с нами</Badge>
         <div className={styles.contactContent}>
           <h1 className={styles.contactTitle}>Способ связи и юридическая информация</h1>
           <div >
             <h2 className={styles.contactTitleUr}>Общество с ограниченной ответственностью «VOLGASHOT»</h2>
-            <h3 className={styles.contactTitleUr}>ООО ПК «ВОЛГА ШОТ-М»</h3>
+            <h3 itemprop="name" className={styles.contactTitleUr}>ООО ПК «ВОЛГА ШОТ-М»</h3>
             <ul className={styles.contactUr}>
               <li className={styles.contactItem}>
                 <span className={styles.contactSpan}>Юридический адрес: </span>
-                400079, Волгоградская Область, г.о. Город-герой Волгоград, г Волгоград, ул Самарская, влд. 1, офис 1
+                <span itemprop="streetAddress">400079, Волгоградская Область, г.о. Город-герой Волгоград, г Волгоград, ул Самарская, влд. 1, офис 1</span>
               </li>
               <li className={styles.contactItem}>
                 <span className={styles.contactSpan}>Почтовый адрес: </span>
@@ -53,11 +53,16 @@ const Contact = () => {
               </li>
               <li className={styles.contactItem}>
                 <span className={styles.contactSpan}>Главный бухгалтер: </span>
-                +7 978 588-906-48, +7 961 685-32-12
+                <span itemprop="telephone">+7 978 588-906-48</span>, 
+                <span itemprop="faxNumber">+7 961 685-32-12</span>
               </li>
               <li className={styles.contactItem}>
                 <span className={styles.contactSpan}>Email: </span>
-                arsavva@mail.ru
+                <span itemprop="email">arsavva@mail.ru</span>
+              </li>
+              <li className={styles.contactItem}>
+                <span className={styles.contactSpan}>Время работы </span>
+                <span itemprop="openingHours" datetime="Mo-Su 10:00−20:00">Ежедневно с 9:00 до 20:00</span>
               </li>
             </ul>
             <div>
