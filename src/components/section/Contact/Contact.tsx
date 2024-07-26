@@ -53,7 +53,7 @@ const Contact = () => {
               </li>
               <li className={styles.contactItem}>
                 <span className={styles.contactSpan}>Главный бухгалтер: </span>
-                <span itemprop="telephone">+7 978 588-906-48</span>, 
+                <span itemprop="telephone">+7 978 588-06-48</span>, 
                 <span itemprop="faxNumber">+7 961 685-32-12</span>
               </li>
               <li className={styles.contactItem}>
