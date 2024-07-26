@@ -29,3 +29,23 @@ html {
   color: #434190;
 }
 
+
+::-webkit-input-placeholder {
+  line-height:50px;
+  text-align:center;
+}
+
+:-moz-placeholder {
+  line-height:50px;
+  text-align:center;
+}
+
+::-moz-placeholder {
+  line-height:50px;
+  text-align:center;
+}
+
+:-ms-input-placeholder {
+  line-height:50px;
+  text-align:center;
+}

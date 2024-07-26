@@ -48,7 +48,7 @@ const Feedback = () => {
           </span>
           <input className={styles.feedbackInput} type="text" onChange={(e) => setName(e.target.value)} placeholder="Ваше имя"/>
           <input className={styles.feedbackInput} type="tel" onChange={(e) => setTel(e.target.value)} placeholder="Ваш телефон"/>
-          <input className={styles.feedbackInput} type="text" onChange={(e) => setComment(e.target.value)} placeholder="Комментарий"/>
+          <textarea className={styles.feedbackInputArea} rows="2" type="text" onChange={(e) => setComment(e.target.value)} placeholder="Комментарий"/>
           <button disabled={!formField} className={styles.feedbackButton} onClick={() => saveFields()} >Отправить</button>
         </div>
       </div>

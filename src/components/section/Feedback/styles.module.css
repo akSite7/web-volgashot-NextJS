@@ -11,7 +11,7 @@
 }
 
 .feedbackButton {
-  @apply w-full sm:w-auto px-4 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
+  @apply w-full max-h-[50px] sm:w-auto px-4 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
 }
 
 .feedbackWarning {
@@ -24,4 +24,8 @@
 
 .feedbackInput {
   @apply w-[230px] h-[50px] text-center bg-opacity-30 bg-black;
+}
+
+.feedbackInputArea {
+  @apply w-[230px] min-h-[50px] max-h-[400px] text-center bg-opacity-30 bg-black;
 }
