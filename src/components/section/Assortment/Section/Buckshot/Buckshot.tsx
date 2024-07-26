@@ -31,7 +31,7 @@ const Buckshot = () => {
   return (
     <section className={styles.assortment}>
       <div className={styles.assortmentContainer}>
-        <h1 className={styles.assortmentTitle}>Картечь</h1>
+        <h2 className={styles.assortmentTitle}>Картечь</h2>
         <p className={styles.assortmentText}> 
           Возможность заказа от 2 килограмм.
         </p>

@@ -30,7 +30,7 @@ const Other = () => {
   return (
     <section className={styles.assortment} id="assortment">
       <div className={styles.assortmentContainer}>
-        <h1 className={styles.assortmentTitle}>Прочее</h1>
+        <h2 className={styles.assortmentTitle}>Прочее</h2>
         <p className={styles.assortmentText}>Прочие товары у нас в наличии</p>
         <div className={styles.assortmentContent}>
           {getOther.filter((item: Shot) => item.attributes.tag === 'Прочее').map((item: Shot, index) => (

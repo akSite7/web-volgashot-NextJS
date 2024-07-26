@@ -25,14 +25,14 @@ const Header = () => {
             </menu>
           </nav>
         </div>
-        <li className={styles.headerMarketItem}>
+        <div className={styles.headerMarketItem}>
           <Link target="blank" href={'https://www.wildberries.ru/brands/310426872-vshot'} className={styles.headerMarketLink}>
             Wildberries
           </Link>
           <Link target="blank" href={'https://www.ozon.ru/brand/vshot-100972906/'} className={styles.headerMarketLink}>
             Ozon
           </Link>
-        </li>
+        </div>
       </div>
     </header>
   )

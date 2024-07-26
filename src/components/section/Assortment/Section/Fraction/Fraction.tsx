@@ -30,7 +30,7 @@ const Fraction = () => {
   return (
     <section className={styles.assortment} id="assortment">
       <div className={styles.assortmentContainer}>
-        <h1 className={styles.assortmentTitle}>Дробь</h1>
+        <h2 className={styles.assortmentTitle}>Дробь</h2>
         <p className={styles.assortmentText}>Размеры соответствуют ГОСТ 7837-76 и имеют шаг 0,25 мм 
           <br />Возможность заказа от 2 килограмм.
         </p>
