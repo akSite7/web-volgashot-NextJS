@@ -43,7 +43,7 @@ const Feedback = () => {
         <h3 className={styles.feedbackTitle}>Есть вопросы?</h3>
         <div className={styles.feedbackContent}>
           <span className={styles.feedbackWarning}>
-            *Мы никому не передаем ваши данные. 
+            *Мы никому не передаем ваши данные.
             <br />И не сохраняем ваш номер в базу.
           </span>
           <input className={styles.feedbackInput} type="text" onChange={(e) => setName(e.target.value)} placeholder="Ваше имя"/>

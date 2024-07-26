@@ -7,7 +7,7 @@
 }
 
 .contactTitle {
-  @apply mt-10 mb-10 text-3xl md:text-6xl text-gray-50 font-medium;
+  @apply mt-10 mb-10 text-3xl md:text-5xl text-gray-50 font-medium;
 }
 
 .contactItem {
@@ -15,5 +15,17 @@
 }
 
 .contactSpan { 
-  @apply inline-block w-36;
+  @apply inline-block w-64;
+}
+
+.informMap {
+  @apply rounded-lg mx-auto mt-10;
+}
+
+.contactUr {
+  @apply pl-[30px];
+}
+
+.contactTitleUr {
+  @apply text-3xl pb-4;
 }
