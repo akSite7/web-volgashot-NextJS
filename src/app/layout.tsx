@@ -24,7 +24,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <meta property="og:title" content="VSHOT - Продажа охотничьей дроби и картечи от производителя"/>
         <meta property="og:description" content="Специализированный онлайн магазин, который предлагает ассортимент дроби и картечи высокого качества для охотников, спортсменов и любителей стрелкового дела. На нашем сайте вы найдете разнообразные виды дроби и картечи. Мы гарантируем только оригинальную продукцию, которая отличается надежностью, точностью и безопасностью использования. Доверьтесь опыту и надежности VSHOT и наслаждайтесь покупками без лишних хлопот!"/>
         <meta property="og:url" content="https://volgashot.ru/"/>
-        <link rel='icon' href='/favicon.ico'/>
+        <link rel='icon' href='./favicon.ico'/>
       </head>
       <body className={inter.className + ' bg-background text-gray-400 text-base overflow-x-hidden'}>
         <div className="__next">
