@@ -4,10 +4,8 @@ User-agent: yandex
 Disallow: /fractions/
 Disallow: /buckshots/
 Disallow: /other/
-Disallow: /contacts/
 
 User-agent: Googlebot
 Disallow: /fractions/
 Disallow: /buckshots/
 Disallow: /other/
-Disallow: /contacts/
