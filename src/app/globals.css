@@ -31,21 +31,21 @@ html {
 
 
 ::-webkit-input-placeholder {
-  line-height:50px;
+  line-height:27px;
   text-align:center;
 }
 
 :-moz-placeholder {
-  line-height:50px;
+  line-height:27px;
   text-align:center;
 }
 
 ::-moz-placeholder {
-  line-height:50px;
+  line-height:27px;
   text-align:center;
 }
 
 :-ms-input-placeholder {
-  line-height:50px;
+  line-height:27px;
   text-align:center;
 }
