@@ -14,7 +14,10 @@
 ;}
 
 .introContent {
-  @apply grid pt-8 pb-10 gap-4 grid-cols-[55%,45%]
+  @apply grid pt-8 pb-10 gap-4 
+
+  /* Adaptive xl2 */
+  2xl:grid-cols-[55%,45%]
 
   /* Adaptive md */
   md:pb-0
