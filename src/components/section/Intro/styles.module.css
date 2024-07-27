@@ -1,47 +1,64 @@
 .intro {
-  @apply h-screen w-full py-6 md:py-16 bg-gun bg-no-repeat bg-[length:1000px_1000px] bg-[left_95%_top_-50%];
-}
+  @apply w-full py-6 bg-no-repeat bg-[length:1000px_1000px] bg-[left_95%_top_-50%] xl:bg-gun md:h-screen md:py-16
+;}
 
 .introContainer {
-  @apply container mx-auto;
-}
+  @apply container mx-auto
+;}
 
 .introContent {
-  @apply grid pt-8 pb-10 gap-4 grid-cols-1 md:grid-cols-[55%,45%];
-}
+  @apply grid pt-8 pb-10 gap-4 grid-cols-1 md:grid-cols-[55%,45%]
+;}
 
 .introLeft {
-  @apply w-full flex items-start flex-col gap-10;
-}
+  @apply w-full flex items-start flex-col gap-10
+;}
 
 .introTitle {
-  @apply text-3xl md:text-6xl text-gray-50 font-medium;
-}
-
-.introImg {
-  @apply w-full h-full object-cover object-top md:object-top text-indigo-800;
-}
+  @apply text-3xl text-gray-50 font-medium md:text-6xl
+;}
 
 .introActions {
-  @apply flex flex-col w-full sm:w-auto sm:flex-row gap-5;
-}
+  @apply flex flex-col w-full gap-5
+
+  /* Adaptive sm */
+  sm:w-auto 
+  sm:flex-row
+
+;}
 
 .introText {
   @apply text-lg text-gray-500
-}
+;}
 
 .introBottom {
-  @apply w-4/5 flex items-start flex-col gap-14;
-}
+  @apply md:w-4/5 flex items-start flex-col gap-14
+
+  /* Adaptive sm */
+  sm:w-full
+  
+;}
 
 .introActionItem {
-  @apply inline-flex w-full sm:w-auto;
-}
+  @apply inline-flex w-full 
+  
+  /* Adaptive */ 
+  sm:w-auto
+
+;}
 
 .introActionPrimary {
-  @apply w-full sm:w-auto px-4 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center;
-}
+  @apply w-full px-4 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
+
+  /* Adaptive */
+  sm:w-auto
+
+;}
 
 .introActionOutline {
-  @apply w-full sm:w-auto px-4 py-2 font-medium text-gray-200 text-center border border-gray-800 bg-white/5 rounded-lg;
-}
+  @apply w-full px-4 py-2 font-medium text-gray-200 text-center border border-gray-800 bg-white/5 rounded-lg
+
+  /* Adaptive */
+  sm:w-auto
+
+;}

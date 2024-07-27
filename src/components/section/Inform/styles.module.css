@@ -1,35 +1,43 @@
 .inform {
-  @apply w-full pt-10 pb-10 md:pb-20;
-}
+  @apply w-full pt-10 pb-10 md:pb-20
+;}
 
 .informContainer {
-  @apply container mx-auto;
-}
+  @apply container mx-auto
+;}
 
 .informGrid {
-  @apply pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6;
-}
+  @apply pt-10 grid grid-cols-1 md:grid-cols-3 gap-6
+
+  /* Adaptive sm */
+  sm:grid-cols-3
+
+;}
 
 .informCard {
-  @apply  flex flex-col items-center gap-2;
-}
+  @apply  flex flex-col items-center gap-2
+;}
 
 .informTitle {
-  @apply text-xl pt-5 font-medium text-white text-center;
-}
+  @apply text-xl pt-5 font-medium text-white text-center
+;}
 
 .informText {
-  @apply text-center max-w-96 text-gray-500;
-}
+  @apply text-center max-w-96 text-gray-500
+;}
 
 .informMap {
-  @apply rounded-lg mx-auto mt-10;
-}
+  @apply rounded-lg mx-auto mt-10
+
+  /* Adaptive sm */
+  sm:w-[575px]
+  
+;}
 
 .informTitleMain {
-  @apply text-3xl md:text-4xl pt-10 text-gray-50 font-medium;
-}
+  @apply text-3xl md:text-4xl pt-10 text-gray-50 font-medium
+;}
 
 .informDescription {
-  @apply pt-5 text-lg text-gray-500;
-}
+  @apply pt-5 text-lg text-gray-500
+;}

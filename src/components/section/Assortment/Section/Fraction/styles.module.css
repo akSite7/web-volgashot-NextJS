@@ -1,31 +1,40 @@
 .assortmentContainer {
-  @apply container mx-auto;
-}
+  @apply mx-auto md:container
+;}
 
 .assortmentContent {
-  @apply grid pt-8 pb-10 gap-20 grid-cols-4;
-}
+  @apply grid pt-8 pb-10 gap-20 grid-cols-4
+
+  /* Adaptive sm */
+  sm:grid-cols-2
+  sm:gap-8
+
+;}
 
 .assortmentTitle {
-  @apply text-3xl md:text-6xl pt-8 text-gray-50 font-medium;
-}
+  @apply text-3xl md:text-6xl pt-8 text-gray-50 font-medium
+;}
 
 .assortmentText {
-  @apply text-lg text-gray-500 pt-8;
-}
+  @apply text-lg text-gray-500 md:pt-8
+
+  /* Adaptive sm */
+  sm:pt-5
+
+;}
 
 .assortmentTitleCard {
-  @apply text-xl pt-2 text-gray-50;
-}
+  @apply text-xl pt-2 text-gray-50
+;}
 
 .assortmentTextCard {
-  @apply text-sm pt-1 max-h-7;
-}
+  @apply text-sm pt-1 max-h-7
+;}
 
 .assortmentPriceCard {
-  @apply text-xl pt-5;
-}
+  @apply text-xl pt-5
+;}
 
 .assortmentImageCard {
-  @apply rounded-md;
-}
+  @apply rounded-md
+;}
