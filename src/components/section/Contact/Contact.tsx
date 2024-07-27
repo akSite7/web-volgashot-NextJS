@@ -59,6 +59,10 @@ const Contact = () => {
               <span className={styles.contactSpan}>Email: </span>
               <span itemProp="email">arsavva@mail.ru</span>
             </li>
+            <li className={styles.contactItem}>
+              <span className={styles.contactSpan}>Email: </span>
+              <span itemProp="email">arsavva@mail.ru</span>
+            </li>
           </ul>
           <div>
             <iframe className={styles.contactMap} src="https://yandex.ru/map-widget/v1/?um=constructor%3A92b6eaf7aeeef7a05e46dab06fba460a19fa79c3730e02b7c9ff151b84ec4583&amp;source=constructor" width="1440" height="360"></iframe>
