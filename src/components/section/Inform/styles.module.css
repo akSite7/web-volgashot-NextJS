@@ -31,6 +31,9 @@
 
   /* Adaptive sm */
   sm:w-[575px]
+
+  /* Adaptive xs */
+  xs:w-[330px]
   
 ;}
 

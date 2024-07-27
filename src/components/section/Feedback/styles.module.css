@@ -12,6 +12,9 @@
   /* Adaptive sm */
   sm:mb-5
 
+  /* Adaptive xs */
+  xs:mb-5
+
 ;}
 
 .feedbackButton {
@@ -19,6 +22,9 @@
 
   /* Adaptive sm */
   sm:w-auto
+
+  /* Adaptive xs */
+  xs:w-auto
 
 ;}
 
@@ -30,6 +36,11 @@
   sm:pb-5
   sm:text-base
 
+  /* Adaptive xs */
+  xs:pt-0
+  xs:pb-5
+  xs:text-base
+
 ;}
 
 .feedbackContent {  
@@ -37,6 +48,9 @@
   
   /* Adaptive sm */
   sm:grid-cols-1
+
+  /* Adaptive xs */
+  xs:grid-cols-1
 
 ;}
 
@@ -46,6 +60,10 @@
   /* Adaptive sm */
   sm:w-[575px]
   sm:mb-3
+
+  /* Adaptive xs */
+  xs:w-[330px]
+  xs:mb-3
 
 ;}
 
@@ -57,4 +75,9 @@
   sm:min-h-[100px]
   sm:mb-10
   
+  /* Adaptive xs */
+  xs:w-[330px]
+  xs:min-h-[100px]
+  xs:mb-10
+
 ;}

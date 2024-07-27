@@ -17,11 +17,13 @@ module.exports = {
         '2xl': '1536px',
       },
     },
-    
     backgroundImage: {
       gun: 'url(/assets/img/intro/gun.svg)',
     },
     extend: {
+      screens: {
+        'xs': '400px',
+      },
       colors: {
         background: '#0E0D13'
       }
