@@ -1,5 +1,5 @@
 .intro {
-  @apply h-screen w-full py-6 md:py-16 bg-gun bg-no-repeat bg-[length:1000px_1000px] bg-[left_95%_top_140%];
+  @apply h-screen w-full py-6 md:py-16 bg-gun bg-no-repeat bg-[length:1000px_1000px] bg-[left_95%_top_-50%];
 }
 
 .introContainer {
