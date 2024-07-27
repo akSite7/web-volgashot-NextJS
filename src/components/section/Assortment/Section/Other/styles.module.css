@@ -1,9 +1,23 @@
 .assortmentContainer {
-  @apply mx-auto md:container
+  @apply mx-auto
+
+  /* Adaptive md */
+  md:container
+  
 ;}
 
 .assortmentContent {
   @apply grid pt-8 pb-10 gap-20 grid-cols-4
+
+  /* Adaptive 2xl */
+  2xl:grid-cols-4
+  2xl:gap-20
+
+  /* Adaptive lg */
+  lg:grid-cols-3
+
+  /* Adaptive md */
+  md:grid-cols-3
 
   /* Adaptive sm */
   sm:grid-cols-2
@@ -16,11 +30,18 @@
 ;}
 
 .assortmentTitle {
-  @apply text-3xl md:text-6xl pt-8 text-gray-50 font-medium
+  @apply pt-8 text-gray-50 font-medium
+
+  /* Adaptive md */
+  md:text-6xl
+
 ;}
 
 .assortmentText {
-  @apply text-lg text-gray-500 pt-8 
+  @apply text-lg text-gray-500 
+
+  /* Adaptive md */
+  md:pt-8
 
   /* Adaptive sm */
   sm:pt-5
@@ -31,15 +52,21 @@
 ;}
 
 .assortmentTitleCard {
-  @apply text-xl pt-2 text-gray-50
+  @apply pt-2 text-gray-50
+
+  /* Adaptive md */
+  md:text-xl
 
   /* Adaptive xs */
   xs:text-lg
-  
+
 ;}
 
 .assortmentTextCard {
-  @apply text-sm pt-1 max-h-7
+  @apply pt-1 max-h-7
+ 
+  /* Adaptive md */
+  md:text-sm
 
   /* Adaptive xs */
   xs:text-xs

@@ -1,5 +1,9 @@
 .feedback {
-  @apply w-full pt-10 pb-10 md:pb-20
+  @apply w-full pt-10 pb-10
+
+  /* Adaptive md */
+  md:pb-20
+
 ;}
 
 .feedbackContainer {
@@ -7,8 +11,11 @@
 ;}
 
 .feedbackTitle {
-  @apply text-2xl mt-10 mb-10 md:text-6xl text-gray-50 font-medium
+  @apply text-2xl mt-10 mb-10 text-gray-50 font-medium
 
+  /* Adaptive md */
+  md:text-6xl
+  
   /* Adaptive sm */
   sm:mb-5
 
@@ -31,6 +38,12 @@
 .feedbackWarning {
   @apply max-w-[1100px] text-[11px] pt-3 text-center leading-tight block
 
+
+  2xl:leading-tight
+  2xl:pt-3
+  2xl:text-[11px]
+  2xl:pb-0
+
   /* Adaptive sm */
   sm:pt-0
   sm:pb-5
@@ -44,8 +57,14 @@
 ;}
 
 .feedbackContent {  
-  @apply grid grid-cols-5
+  @apply grid
   
+  /* Adaptive 2xl */
+  2xl:grid-cols-5
+
+  /* Adaptive sm */
+  md:grid-cols-1
+
   /* Adaptive sm */
   sm:grid-cols-1
 
@@ -57,27 +76,38 @@
 .feedbackInput {
   @apply w-[230px] h-[50px] pl-3 pr-3 text-center bg-opacity-30 bg-black
 
+  /* Adaptive 2xl */
+  2xl:w-[230px]
+  2xl:h-[50px]
+
   /* Adaptive sm */
-  sm:w-[575px]
+  sm:w-auto
   sm:mb-3
 
   /* Adaptive xs */
-  xs:w-[330px]
+  xs:w-auto
   xs:mb-3
 
 ;}
 
 .feedbackInputArea {
-  @apply w-[230px] min-h-[50px] max-h-[400px] pl-3 pr-3 pt-9 text-center bg-opacity-30 bg-black
-
+  @apply w-[230px] min-h-[50px] max-h-[400px] pl-3 pr-3 text-center bg-opacity-30 bg-black
+  
+  /* Adaptive 2xl */
+  2xl:w-[230px]
+  2xl:min-h-[50px]
+  2xl:pt-3
+  
   /* Adaptive sm */
-  sm:w-[575px]
+  sm:w-auto
   sm:min-h-[100px]
   sm:mb-10
+  sm:pt-9
   
   /* Adaptive xs */
-  xs:w-[330px]
+  xs:w-auto
   xs:min-h-[100px]
   xs:mb-10
+  xs:pt-9
 
 ;}

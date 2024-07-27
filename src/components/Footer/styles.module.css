@@ -1,45 +1,67 @@
 .footer {
-  @apply w-full py-10 border-t border-gray-800;
-}
+  @apply w-full py-10 border-t border-gray-800
+;}
 
 .footerContainer {
-  @apply container mx-auto space-y-7;
-}
+  @apply container mx-auto space-y-7
+;}
 
 .footerContent {
-  @apply w-full flex flex-col md:flex-row justify-between items-start gap-10;
-}
+  @apply w-full flex flex-col justify-between items-start gap-10
+
+  /* Adaptive lg */
+  lg:flex-row
+
+;}
 
 .footerBrand {
-  @apply w-full md:w-3/12 space-y-5;
-}
+  @apply w-full space-y-5
+  
+  /* Adaptive 2xl */
+  2xl:w-3/12
+
+  /* Adaptive lg */
+  lg:w-6/12
+
+;}
  
 .footerLogo {
-  @apply text-2xl text-gray-50 font-semibold;
-}
+  @apply text-2xl text-gray-50 font-semibold
+;}
 
 .footerDesc{
-  @apply text-gray-400;
-}
+  @apply text-gray-400
+;}
 
 .footerPages {
-  @apply w-full md:w-9/12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5;
-}
+  @apply w-full grid grid-cols-1 gap-5
+
+  /* Adaptive 2xl */
+  2xl:grid-cols-3
+
+  /* Adaptive lg */
+  lg:w-9/12
+  lg:grid-cols-2
+
+  /* Adaptive sm */
+  sm:grid-cols-2
+  
+;}
 
 .footerPagesContent {
-  @apply w-full space-y-5;
-}
+  @apply w-full space-y-5
+;}
 
 .footerPagesTitle {
-  @apply text-gray-50 text-lg font-medium;
-}
+  @apply text-gray-50 text-lg font-medium
+;}
 
 .footerPagesItems {
-  @apply w-full space-y-3;
-}
+  @apply w-full space-y-3
+;}
 
 .footerPagesLink {
-  @apply hover:underline;
-}
+  @apply hover:underline
+;}
 
 

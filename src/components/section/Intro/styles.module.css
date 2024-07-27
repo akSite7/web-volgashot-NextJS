@@ -1,5 +1,12 @@
 .intro {
-  @apply w-full py-6 bg-no-repeat bg-[length:1000px_1000px] bg-[left_95%_top_-50%] xl:bg-gun md:h-screen md:py-16
+  @apply w-full py-6 bg-no-repeat bg-[length:1000px_1000px] bg-[left_95%_top_-50%] xl:bg-gun 
+
+  /* Adaptive xl2 */
+  2xl:h-screen
+
+  /* Adaptive md */
+  md:py-16
+
 ;}
 
 .introContainer {
@@ -7,7 +14,11 @@
 ;}
 
 .introContent {
-  @apply grid pt-8 pb-10 gap-4 grid-cols-1 md:grid-cols-[55%,45%]
+  @apply grid pt-8 pb-10 gap-4 grid-cols-[55%,45%]
+
+  /* Adaptive md */
+  md:pb-0
+  
 ;}
 
 .introLeft {
@@ -15,7 +26,11 @@
 ;}
 
 .introTitle {
-  @apply text-3xl text-gray-50 font-medium md:text-6xl
+  @apply text-3xl text-gray-50 font-medium 
+  
+  /* Adaptive md */
+  md:text-6xl
+
 ;}
 
 .introActions {
@@ -32,7 +47,10 @@
 ;}
 
 .introBottom {
-  @apply md:w-4/5 flex items-start flex-col gap-14
+  @apply flex items-start flex-col gap-14
+
+  /* Adaptive md */
+  md:w-4/5
 
   /* Adaptive sm */
   sm:w-full
@@ -42,7 +60,7 @@
 .introActionItem {
   @apply inline-flex w-full 
   
-  /* Adaptive */ 
+  /* Adaptive sm */ 
   sm:w-auto
 
 ;}
@@ -50,7 +68,7 @@
 .introActionPrimary {
   @apply w-full px-4 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
 
-  /* Adaptive */
+  /* Adaptive sm */
   sm:w-auto
 
 ;}
@@ -58,7 +76,7 @@
 .introActionOutline {
   @apply w-full px-4 py-2 font-medium text-gray-200 text-center border border-gray-800 bg-white/5 rounded-lg
 
-  /* Adaptive */
+  /* Adaptive sm */
   sm:w-auto
 
 ;}

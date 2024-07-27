@@ -14,7 +14,7 @@ module.exports = {
         'md': '768px',
         'lg': '1024px',
         'xl': '1280px',
-        '2xl': '1536px',
+        '2xl': '1600px',
       },
     },
     backgroundImage: {
@@ -23,6 +23,7 @@ module.exports = {
     extend: {
       screens: {
         'xs': '400px',
+        'xxs': '320px',
       },
       colors: {
         background: '#0E0D13'
