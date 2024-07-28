@@ -5,8 +5,10 @@ import Feedback from "@/components/section/Feedback/Feedback";
 export default function Fractions() {
   return (
     <>
-      <Other />
-      <Feedback />
+      <div className="p-9">
+        <Other />
+        <Feedback />
+      </div>
     </>
   );
 }
