@@ -37,7 +37,7 @@ const Feedback = () => {
   }
 
   return (
-    <section className={styles.feedback}>
+    <section className={styles.feedback} id="feedback">
       <div className={styles.feedbackContainer}>
         <Badge>📞 Заказывайте сегодня</Badge>
         <h3 className={styles.feedbackTitle}>Есть вопросы?</h3>

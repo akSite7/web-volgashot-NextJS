@@ -78,12 +78,6 @@
 
 .assortmentTextCard {
   @apply pt-1 max-h-7
- 
-  /* Adaptive md */
-  md:text-sm
-
-  /* Adaptive xs */
-  xs:text-xs
 
   /* Adaptive xxs */
   xxs:text-xs
@@ -91,10 +85,14 @@
 ;}
 
 .assortmentPriceCard {
-  @apply text-xl pt-5
+  @apply text-xl
 
   /* Adaptive xxs */
-  xxs:pt-10
+  xs:pt-2
+
+  /* Adaptive xxs */
+  xxs:pt-7
+  xxs:pb-3
 
 ;}
 

@@ -9,7 +9,7 @@ import Other from "./Section/Other/Other";
 
 const Assortment = () => {
   return (
-    <section className={styles.assortment}>
+    <section className={styles.assortment} id="assortment">
       <div className={styles.assortmentContainer}>
         <h2>
           <Badge>🛒 Наш ассортимент</Badge>

@@ -4,6 +4,8 @@ import React from "react";
 import styles from './styles.module.css';
 import Image from "next/image";
 import useFractions from "@/hooks/useFraction";
+import ButtonBuy from "@/components/ui/ButtonBuy/ButtonBuy";
+
 
 interface Shot {
   id: number;
@@ -28,7 +30,7 @@ const Fraction = () => {
   const getFraction = useFractions()
 
   return (
-    <section className={styles.assortment} id="assortment">
+    <section className={styles.assortment}>
       <div className={styles.assortmentContainer}>
         <h2 className={styles.assortmentTitle}>Дробь</h2>
         <p className={styles.assortmentText}>Размеры соответствуют ГОСТ 7837-76 и имеют шаг 0,25 мм 
@@ -42,6 +44,7 @@ const Fraction = () => {
                   <div className={styles.assortmentTitleCard}>{item.attributes?.title}</div>
                   <div className={styles.assortmentTextCard}>{item.attributes?.description}</div>
                   <div className={styles.assortmentPriceCard}>{item.attributes?.price}</div>
+                  <ButtonBuy>Заказать</ButtonBuy>
                 </div>
               </>
           ))}
