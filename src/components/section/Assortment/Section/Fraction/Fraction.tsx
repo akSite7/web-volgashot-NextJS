@@ -6,7 +6,6 @@ import Image from "next/image";
 import useFractions from "@/hooks/useFraction";
 import ButtonBuy from "@/components/ui/ButtonBuy/ButtonBuy";
 
-
 interface Shot {
   id: number;
   attributes: {
@@ -44,7 +43,7 @@ const Fraction = () => {
                   <div className={styles.assortmentTitleCard}>{item.attributes?.title}</div>
                   <div className={styles.assortmentTextCard}>{item.attributes?.description}</div>
                   <div className={styles.assortmentPriceCard}>{item.attributes?.price}</div>
-                  <ButtonBuy>Заказать</ButtonBuy>
+                  <ButtonBuy />
                 </div>
               </>
           ))}

@@ -4,7 +4,7 @@ import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
 import useBuckshots from "@/hooks/useBuckshot";
-
+import ButtonBuy from "@/components/ui/ButtonBuy/ButtonBuy";
 
 interface Shot {
   id: number;
@@ -43,6 +43,7 @@ const Buckshot = () => {
                     <div className={styles.assortmentTitleCard}>{item.attributes?.title}</div>
                     <div className={styles.assortmentTextCard}>{item.attributes?.description}</div>
                     <div className={styles.assortmentPriceCard}>{item.attributes?.price}</div>
+                    <ButtonBuy />
                   </div>
                 </>
             ))}
