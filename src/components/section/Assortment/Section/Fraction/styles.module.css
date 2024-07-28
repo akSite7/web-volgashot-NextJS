@@ -1,8 +1,7 @@
 .assortmentContainer {
-  @apply mx-auto
+  @apply mx-auto container
 
   /* Adaptive md */
-  md:container
   
 ;}
 

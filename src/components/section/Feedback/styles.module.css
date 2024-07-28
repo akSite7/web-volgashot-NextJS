@@ -54,6 +54,12 @@
   2xl:text-[11px]
   2xl:pb-0
 
+  /* Adaptive xl */
+  xl:leading-tight
+  xl:pt-3
+  xl:text-[11px]
+  xl:pb-0
+
   /* Adaptive sm */
   sm:pt-0
   sm:pb-5
@@ -77,6 +83,9 @@
   /* Adaptive 2xl */
   2xl:grid-cols-5
 
+  /* Adaptive xl */
+  xl:grid-cols-5
+
   /* Adaptive sm */
   md:grid-cols-1
 
@@ -97,6 +106,10 @@
   /* Adaptive 2xl */
   2xl:w-[230px]
   2xl:h-[50px]
+
+  /* Adaptive xl */
+  xl:w-[230px]
+  xl:h-[50px]
 
   /* Adaptive sm */
   sm:w-auto
@@ -119,6 +132,11 @@
   2xl:w-[230px]
   2xl:min-h-[50px]
   2xl:pt-3
+
+  /* Adaptive xl */
+  xl:w-[230px]
+  xl:min-h-[50px]
+  xl:pt-3
   
   /* Adaptive sm */
   sm:w-auto

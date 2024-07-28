@@ -25,6 +25,9 @@
 .informTitle {
   @apply text-xl pt-5 font-medium text-white text-center
 
+  /* Adaptive xs */
+  xs:text-base
+
   /* Adaptive xxs */
   xxs:text-base
   
@@ -32,6 +35,9 @@
 
 .informText {
   @apply text-center max-w-96 text-gray-500
+
+   /* Adaptive xs */
+   xs:text-base
 
   /* Adaptive xxs */
   xxs:text-sm
@@ -43,6 +49,9 @@
 
   /* Adaptive 2xl */
   2xl:w-[1535px]
+
+  /* Adaptive xl */
+  xl:w-[1210px]
 
   /* Adaptive lg */
   lg:w-[935px]
@@ -84,7 +93,9 @@
 
 .informImage {
   @apply
-  
+  /* Adaptive xs */
+  xs:w-[85px]
+
   /* Adaptive xxs */
   xxs:w-[70px]
 

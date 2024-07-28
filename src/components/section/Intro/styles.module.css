@@ -1,8 +1,9 @@
 .intro {
-  @apply w-full py-6 bg-no-repeat bg-[length:1000px_1000px] bg-[left_95%_top_-50%] xl:bg-gun 
+  @apply w-full py-6 bg-no-repeat bg-[length:1000px_1000px] bg-[left_95%_top_-50%]
 
   /* Adaptive xl2 */
   2xl:h-screen
+  2xl:bg-gun
 
   /* Adaptive md */
   md:py-16
