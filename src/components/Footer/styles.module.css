@@ -31,6 +31,7 @@
 
 .footerDesc{
   @apply text-gray-400
+  
 ;}
 
 .footerPages {
@@ -45,7 +46,7 @@
 
   /* Adaptive sm */
   sm:grid-cols-2
-  
+
 ;}
 
 .footerPagesContent {

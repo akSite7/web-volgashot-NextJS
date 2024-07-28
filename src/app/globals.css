@@ -8,6 +8,7 @@ html {
 
 .tab {
   margin-top: 20px;
+  @apply xs:text-base xxs:text-sm;
 }
 
 .tab-content {

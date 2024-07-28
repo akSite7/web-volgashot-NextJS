@@ -1,6 +1,10 @@
 .feedback {
   @apply w-full pt-10 pb-10
 
+  /* Adaptive 2xl */
+  2xl:pb-0
+  2xl:pt-10
+
   /* Adaptive md */
   md:pb-20
 
@@ -22,6 +26,9 @@
   /* Adaptive xs */
   xs:mb-5
 
+  /* Adaptive xxs */
+  xxs:mb-5
+
 ;}
 
 .feedbackButton {
@@ -33,12 +40,15 @@
   /* Adaptive xs */
   xs:w-auto
 
+  /* Adaptive xxs */
+  xxs:w-auto
+
 ;}
 
 .feedbackWarning {
   @apply max-w-[1100px] text-[11px] pt-3 text-center leading-tight block
 
-
+  /* Adaptive 2xl */
   2xl:leading-tight
   2xl:pt-3
   2xl:text-[11px]
@@ -53,6 +63,11 @@
   xs:pt-0
   xs:pb-5
   xs:text-base
+
+  /* Adaptive xxs */
+  xxs:pt-0
+  xxs:pb-5
+  xxs:text-[11px]
 
 ;}
 
@@ -71,6 +86,9 @@
   /* Adaptive xs */
   xs:grid-cols-1
 
+  /* Adaptive xxs */
+  xxs:grid-cols-1
+
 ;}
 
 .feedbackInput {
@@ -87,6 +105,10 @@
   /* Adaptive xs */
   xs:w-auto
   xs:mb-3
+
+  /* Adaptive xxs */
+  xxs:w-auto
+  xxs:mb-3
 
 ;}
 
@@ -109,5 +131,11 @@
   xs:min-h-[100px]
   xs:mb-10
   xs:pt-9
+
+  /* Adaptive xxs */
+  xxs:w-auto
+  xxs:min-h-[100px]
+  xxs:mb-10
+  xxs:pt-9
 
 ;}

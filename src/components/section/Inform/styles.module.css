@@ -11,10 +11,7 @@
 ;}
 
 .informGrid {
-  @apply pt-10 grid grid-cols-1 gap-6
-
-  /* Adaptive md */
-  md:grid-cols-3
+  @apply pt-10 grid gap-6
 
   /* Adaptive sm */
   sm:grid-cols-3
@@ -27,15 +24,24 @@
 
 .informTitle {
   @apply text-xl pt-5 font-medium text-white text-center
+
+  /* Adaptive xxs */
+  xxs:text-base
+  
 ;}
 
 .informText {
   @apply text-center max-w-96 text-gray-500
+
+  /* Adaptive xxs */
+  xxs:text-sm
+
 ;}
 
 .informMap {
   @apply rounded-lg mx-auto mt-10
 
+  /* Adaptive 2xl */
   2xl:w-[1535px]
 
   /* Adaptive lg */
@@ -49,6 +55,9 @@
 
   /* Adaptive xs */
   xs:w-[330px]
+
+  /* Adaptive xxs */
+  xxs:w-[260px]
   
 ;}
 
@@ -58,8 +67,25 @@
   /* Adaptive md */
   md:text-4xl
 
+  /* Adaptive xxs */
+  xxs:text-xl
+
 ;}
 
 .informDescription {
-  @apply pt-5 text-lg text-gray-500
+  @apply pt-5 text-gray-500
+
+  /* Adaptive xs */
+  xs:text-lg
+
+  /* Adaptive xxs */
+  xxs:text-base
+;}
+
+.informImage {
+  @apply
+  
+  /* Adaptive xxs */
+  xxs:w-[70px]
+
 ;}
