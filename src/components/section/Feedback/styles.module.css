@@ -3,75 +3,82 @@
 ;}
 
 .feedbackContainer {
-  @apply container mx-auto text-white 
+  @apply container mx-auto
 ;}
 
 .feedbackContent {
   @apply w-full justify-between items-start gap-10 mt-16
 
-  /* Adaptive 2xl */
-  2xl:flex flex-row
+  /* 2XL */
+  xl:flex
 
 ;}
 
 .feedbackInfo {
   @apply
 
-  /* Adaptive 2xl */
-  2xl:w-4/12
-  2xl:mt-8
+  2xl:w-5/12
 
-  /* Adaptive xxs */
+  /* 2XL */
+  xl:w-6/12
+  xl:mt-8
+  xl:p-10
+  xl:pl-20
+
+  /* XXS */
   xxs:w-full
 
 ;}
 
 .feedbackTitle {
-  @apply uppercase font-medium
+  @apply uppercase font-medium text-white
 
-  /* Adaptive 2xl */
-  2xl:text-[50px]
-  2xl:mb-5
-  2xl:leading-[50px]
+  /* 2XL */
+  xl:text-5xl
+  xl:mb-5
 
-  /* Adaptive xxs */
+  /* XXS */
   xxs:text-2xl
   xxs:mb-3
 
 ;}
 
 .feedbackDescription {
-  @apply  text-gray-500 leading-7
+  @apply  text-gray-500 
 
-  /* Adaptive 2xl */
-  2xl:text-[20px]
-  2xl:mb-0
+  /* 2XL */
+  xl:text-xl
+  xl:mb-0
+  xl:leading-7
 
-  /* Adaptive xxs */
-  xxs:text-base
+  /* XXS */
   xxs:mb-5
 
 ;}
 
 .feedbackForm {
-  @apply grid grid-cols-1
+  @apply grid grid-cols-1 p-10 pt-7 bg-action
 
-  /* Adaptive 2xl */
-  2xl:w-6/12
+  /* 2XL */
+  xl:w-6/12
 
-  /* Adaptive xxs */
+  /* XXS */
   xxs:w-full
 
+;}
+
+.feedbackSubTitle {
+  @apply text-3xl font-medium pb-5
 ;}
 
 .feedbackInput {
   @apply h-14 mb-5 bg-opacity-30 bg-black
 
-  /* Adaptive 2xl */
-  2xl:text-left
-  2xl:pl-5
+  /* 2XL */
+  xl:text-left
+  xl:pl-5
 
-/* Adaptive xxs */
+ /* XXS */
   xxs:text-center
   xxs:pl-0
 
@@ -80,60 +87,51 @@
 .feedbackInputNano {
   @apply grid
 
-  /* Adaptive 2xl */
-  2xl:grid-cols-2 
-  2xl:gap-5
+  /* 2XL */
+  xl:grid-cols-2 
+  xl:gap-5
 
-  /* Adaptive xxs */
+  /* XXS */
   xxs:grid-cols-1
   xxs:gap-0
 
 ;}
 
 .feedbackInputDouble {
-  @apply h-14 mb-5 bg-opacity-30 bg-black pl-5
+  @apply h-14 mb-5 bg-opacity-30 pl-5 bg-black 
 
-  /* Adaptive 2xl */
-  2xl:text-left
-  2xl:pl-5
+  /* 2XL */
+  xl:text-left
+  xl:pl-5
 
-  /* Adaptive xxs */
+  /* XXS */
   xxs:text-center
   xxs:pl-0
 
 ;}
 
 .feedbackArea {
-  @apply h-14 mb-3 bg-opacity-30 bg-black pl-5 min-h-[100px] max-h-[400px] pr-3 pt-4
+  @apply min-h-[100px] max-h-[400px] h-14 mb-3 bg-opacity-30 pl-5  pr-5 pt-4 bg-black
 
-  /* Adaptive 2xl */
-  2xl:text-left
+  /* 2XL */
+  xl:text-left
 
-  /* Adaptive xxs */
+  /* XXS */
   xxs:text-center
  
 ;}
 
 .feedbackPolice {
-  @apply text-gray-500
-
-  /* Adaptive 2xl */
-  2xl:text-xs
-  2xl:w-6/12 
-
-  /* Adaptive xxs */
-  xxs:text-[12px]
-  xxs:w-full
-
+  @apply text-gray-500 w-full text-xs
 ;}
 
 .feedbackSubmit {
-  @apply max-h-[50px] px-4 mt-3 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
+  @apply max-h-[50px] px-4 mt-3 py-2 rounded-md font-medium text-center cursor-pointer text-gray-50 bg-indigo-600 hover:bg-hover
+  
+  /* 2XL */
+  xl:w-4/12
 
-  /* Adaptive 2xl */
-  2xl:w-4/12
-
-  /* Adaptive xxs */
+  /* XXS */
   xxs:w-full
 
 ;}

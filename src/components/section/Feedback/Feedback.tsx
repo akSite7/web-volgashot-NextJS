@@ -41,16 +41,17 @@ const Feedback = () => {
   return (
     <section className={styles.feedback} id="feedback">
       <div className={styles.feedbackContainer}>
-      <Badge>📞 Заказывайте сегодня</Badge>
+      
         <div className={styles.feedbackContent}>
           <div className={styles.feedbackInfo}>
             <h1 className={styles.feedbackTitle}>Хотите сделать заказ?</h1>
             <p className={styles.feedbackDescription}>Мы тщательно изучим ваш комментарий и перезвоним в ближайшее время для уточнения деталей и оформления дроби/картечи в нашем магазине. Благодарим за проявленный интерес к нашему ассортименту, ждем вашей заявки! </p>
           </div>
           <div className={styles.feedbackForm}>
-            <input className={styles.feedbackInput} type="text" onChange={(e) => setName(e.target.value)} placeholder="Ваше имя" />
+            <h2 className={styles.feedbackSubTitle}>Заполните форму</h2>
+            <input required className={styles.feedbackInput} type="text" onChange={(e) => setName(e.target.value)} placeholder="Ваше имя" />
             <div className={styles.feedbackInputNano}>
-              <input className={styles.feedbackInputDouble} onChange={(e) => setTel(e.target.value)} type="tel" placeholder="Телефон" />
+              <input required className={styles.feedbackInputDouble} onChange={(e) => setTel(e.target.value)} type="tel" placeholder="Телефон" />
               <input className={styles.feedbackInputDouble} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Почта" />
             </div>
             <textarea className={styles.feedbackArea} onChange={(e) => setComment(e.target.value)} placeholder="Комментарий" />

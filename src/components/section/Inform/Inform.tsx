@@ -22,12 +22,12 @@ interface Shot {
   }
 }
 
-const Inform = () => {
+const Inform = (inform) => {
 
   const getInform = useInforms()
 
   return (
-    <section className={styles.inform}>
+    <section className={styles.inform} key={inform}>
       <div className={styles.informContainer}>
         <Badge>📌 Важная информация</Badge>
         <h1 className={styles.informTitleMain}>
@@ -43,15 +43,13 @@ const Inform = () => {
         </div>
         <ul className={styles.informGrid}>
           {getInform.map((item: Shot, index) => (
-            <>
-              <li>
-                <div className={styles.informCard}>
-                  <Image className={styles.informImage} width={85} height={0} src={process.env.NEXT_PUBLIC_STRAPI_API_URL + (item?.attributes?.image?.data.attributes?.url ?? '')} alt=""/>
-                  <div className={styles.informTitle}>{item.attributes?.title}</div>
-                  <div className={styles.informText}>{item.attributes?.text}</div>
-                </div>
-              </li>
-            </>
+            <li key={index}>
+              <div className={styles.informCard} >
+                <Image className={styles.informImage} width={85} height={0} src={process.env.NEXT_PUBLIC_STRAPI_API_URL + (item?.attributes?.image?.data.attributes?.url ?? '')} alt=""/>
+                <div className={styles.informTitle}>{item.attributes?.title}</div>
+                <div className={styles.informText}>{item.attributes?.text}</div>
+              </div>
+            </li>
           ))}
         </ul>
       </div>

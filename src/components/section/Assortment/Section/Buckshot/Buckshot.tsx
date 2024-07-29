@@ -37,15 +37,13 @@ const Buckshot = () => {
         </p>
         <div className={styles.assortmentContent}>
           {getBuckshot.filter((item: Shot) => item.attributes?.tag === 'Картечь').map((item: Shot, index) => (
-                <>
-                  <div key={index}>
-                    <Image className={styles.assortmentImageCard} width={700} height={0} src={process.env.NEXT_PUBLIC_STRAPI_API_URL + (item?.attributes?.image?.data.attributes?.url ?? '')} alt=""/>
-                    <div className={styles.assortmentTitleCard}>{item.attributes?.title}</div>
-                    <div className={styles.assortmentTextCard}>{item.attributes?.description}</div>
-                    <div className={styles.assortmentPriceCard}>{item.attributes?.price}</div>
-                    <ButtonBuy />
-                  </div>
-                </>
+            <div key={index}>
+              <Image className={styles.assortmentImageCard} width={700} height={0} src={process.env.NEXT_PUBLIC_STRAPI_API_URL + (item?.attributes?.image?.data.attributes?.url ?? '')} alt=""/>
+              <div className={styles.assortmentTitleCard}>{item.attributes?.title}</div>
+              <div className={styles.assortmentTextCard}>{item.attributes?.description}</div>
+              <div className={styles.assortmentPriceCard}>{item.attributes?.price}</div>
+              <ButtonBuy />
+            </div>
             ))}
         </div>
       </div>

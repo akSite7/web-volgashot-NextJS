@@ -26,7 +26,9 @@ module.exports = {
         'xxs': '320px',
       },
       colors: {
-        background: '#0E0D13'
+        background: '#0E0D13',
+        action: '#121117',
+        hover: '#0e4bf1',
       }
     },
   },
