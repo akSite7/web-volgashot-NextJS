@@ -53,7 +53,7 @@ const Feedback = () => {
               <input className={styles.feedbackInputDouble} onChange={(e) => setTel(e.target.value)} type="tel" placeholder="Телефон" />
               <input className={styles.feedbackInputDouble} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Почта" />
             </div>
-            <textarea className={styles.feedbackArea} type="text" onChange={(e) => setComment(e.target.value)} placeholder="Комментарий" />
+            <textarea className={styles.feedbackArea} onChange={(e) => setComment(e.target.value)} placeholder="Комментарий" />
             <p className={styles.feedbackPolice}>Нажимая кнопку, вы соглашаетесь на обработку персональных данных и с политикой конфиденциальности</p>
             <button disabled={!formField} className={styles.feedbackSubmit} onClick={() => saveFields()}>Отправить</button>
           </div>
