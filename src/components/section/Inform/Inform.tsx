@@ -22,12 +22,12 @@ interface Shot {
   }
 }
 
-const Inform = (inform) => {
+const Inform = () => {
 
   const getInform = useInforms()
 
   return (
-    <section className={styles.inform} key={inform}>
+    <section className={styles.inform}>
       <div className={styles.informContainer}>
         <Badge>📌 Важная информация</Badge>
         <h1 className={styles.informTitleMain}>
