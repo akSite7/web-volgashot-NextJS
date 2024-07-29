@@ -9,12 +9,10 @@ html {
 .tab {
   margin-top: 20px;
   @apply xs:text-base xxs:text-sm;
-  
 }
 
 .tab-content {
   display: none;
-  
 }
 
 #tab-btn-1:checked~#content-1,
@@ -32,22 +30,3 @@ html {
 }
 
 
-::-webkit-input-placeholder {
-  line-height:27px;
-  text-align:center;
-}
-
-:-moz-placeholder {
-  line-height:27px;
-  text-align:center;
-}
-
-::-moz-placeholder {
-  line-height:27px;
-  text-align:center;
-}
-
-:-ms-input-placeholder {
-  line-height:27px;
-  text-align:center;
-}

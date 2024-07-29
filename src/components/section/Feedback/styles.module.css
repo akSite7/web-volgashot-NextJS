@@ -1,159 +1,51 @@
 .feedback {
   @apply w-full pt-10 pb-10
-
-  /* Adaptive 2xl */
-  2xl:pb-0
-  2xl:pt-10
-
-  /* Adaptive md */
-  md:pb-20
-
 ;}
 
 .feedbackContainer {
-  @apply container mx-auto
+  @apply container mx-auto text-white 
+;}
+
+.feedbackContent {
+  @apply w-full flex flex-row justify-between items-start gap-10 mt-16
+;}
+
+.feedbackInfo {
+  @apply w-4/12
 ;}
 
 .feedbackTitle {
-  @apply text-2xl mt-10 mb-10 text-gray-50 font-medium
-
-  /* Adaptive md */
-  md:text-6xl
-  
-  /* Adaptive sm */
-  sm:mb-5
-
-  /* Adaptive xs */
-  xs:mb-5
-
-  /* Adaptive xxs */
-  xxs:mb-5
-
+  @apply text-[50px] uppercase font-medium leading-[50px] mb-5
 ;}
 
-.feedbackButton {
-  @apply w-full max-h-[50px] px-4 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
-
-  /* Adaptive sm */
-  sm:w-auto
-
-  /* Adaptive xs */
-  xs:w-auto
-
-  /* Adaptive xxs */
-  xxs:w-auto
-
+.feedbackDescription {
+  @apply text-[20px] text-gray-500 leading-7
 ;}
 
-.feedbackWarning {
-  @apply max-w-[1100px] text-[11px] pt-3 text-center leading-tight block
-
-  /* Adaptive 2xl */
-  2xl:leading-tight
-  2xl:pt-3
-  2xl:text-[11px]
-  2xl:pb-0
-
-  /* Adaptive xl */
-  xl:leading-tight
-  xl:pt-3
-  xl:text-[11px]
-  xl:pb-0
-
-  /* Adaptive sm */
-  sm:pt-0
-  sm:pb-5
-  sm:text-base
-
-  /* Adaptive xs */
-  xs:pt-0
-  xs:pb-5
-  xs:text-base
-
-  /* Adaptive xxs */
-  xxs:pt-0
-  xxs:pb-5
-  xxs:text-[11px]
-
-;}
-
-.feedbackContent {  
-  @apply grid
-  
-  /* Adaptive 2xl */
-  2xl:grid-cols-5
-
-  /* Adaptive xl */
-  xl:grid-cols-5
-
-  /* Adaptive sm */
-  md:grid-cols-1
-
-  /* Adaptive sm */
-  sm:grid-cols-1
-
-  /* Adaptive xs */
-  xs:grid-cols-1
-
-  /* Adaptive xxs */
-  xxs:grid-cols-1
-
+.feedbackForm {
+  @apply grid grid-cols-1 w-6/12
 ;}
 
 .feedbackInput {
-  @apply w-[230px] h-[50px] pl-3 pr-3 text-center bg-opacity-30 bg-black
-
-  /* Adaptive 2xl */
-  2xl:w-[230px]
-  2xl:h-[50px]
-
-  /* Adaptive xl */
-  xl:w-[230px]
-  xl:h-[50px]
-
-  /* Adaptive sm */
-  sm:w-auto
-  sm:mb-3
-
-  /* Adaptive xs */
-  xs:w-auto
-  xs:mb-3
-
-  /* Adaptive xxs */
-  xxs:w-auto
-  xxs:mb-3
-
+  @apply h-14 mb-5 bg-opacity-30 bg-black pl-5
 ;}
 
-.feedbackInputArea {
-  @apply w-[230px] min-h-[50px] max-h-[400px] pl-3 pr-3 text-center bg-opacity-30 bg-black
-  
-  /* Adaptive 2xl */
-  2xl:w-[230px]
-  2xl:min-h-[50px]
-  2xl:pt-3
+.feedbackInputNano {
+  @apply grid grid-cols-2 gap-5
+;}
 
-  /* Adaptive xl */
-  xl:w-[230px]
-  xl:min-h-[50px]
-  xl:pt-3
-  
-  /* Adaptive sm */
-  sm:w-auto
-  sm:min-h-[100px]
-  sm:mb-10
-  sm:pt-9
-  
-  /* Adaptive xs */
-  xs:w-auto
-  xs:min-h-[100px]
-  xs:mb-10
-  xs:pt-9
+.feedbackInputDouble {
+  @apply h-14 mb-5 bg-opacity-30 bg-black pl-5
+;}
 
-  /* Adaptive xxs */
-  xxs:w-auto
-  xxs:min-h-[100px]
-  xxs:mb-10
-  xxs:pt-9
+.feedbackArea {
+  @apply h-14 mb-3 bg-opacity-30 bg-black pl-5 min-h-[100px] max-h-[400px] pr-3 pt-4
+;}
 
+.feedbackPolice {
+  @apply text-xs text-gray-500 w-6/12 
+;}
+
+.feedbackSubmit {
+  @apply w-4/12 max-h-[50px] px-4 mt-3 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
 ;}

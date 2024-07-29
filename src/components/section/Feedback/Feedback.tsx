@@ -9,22 +9,24 @@ const Feedback = () => {
 
   const [ name,  setName ] = useState('');
   const [ tel,  setTel ] = useState('');
+  const [ email,  setEmail ] = useState('');
   const [ comment,  setComment ] = useState('');
   const [ formField, setFormField ] = useState(false);
 
   useEffect(() => {
-    if ( name && tel ) {
+    if ( name && tel && email) {
         setFormField(true);
     } else {
         setFormField(false);
     }
-}, [ name, tel ]);
+}, [ name, tel, email ]);
 
   const saveFields = () => {
     const data = {
       data: {
         name: name,
         tel: tel,
+        email: email,
         comment: comment,
       }
     }
@@ -39,17 +41,22 @@ const Feedback = () => {
   return (
     <section className={styles.feedback} id="feedback">
       <div className={styles.feedbackContainer}>
-        <Badge>📞 Заказывайте сегодня</Badge>
-        <h3 className={styles.feedbackTitle}>Есть вопросы?</h3>
+      <Badge>📞 Заказывайте сегодня</Badge>
         <div className={styles.feedbackContent}>
-          <span className={styles.feedbackWarning}>
-            *Мы никому не передаем ваши данные.
-            <br />И не сохраняем ваш номер в базу.
-          </span>
-          <input className={styles.feedbackInput} type="text" onChange={(e) => setName(e.target.value)} placeholder="Ваше имя"/>
-          <input className={styles.feedbackInput} type="tel" onChange={(e) => setTel(e.target.value)} placeholder="Ваш телефон"/>
-          <textarea className={styles.feedbackInputArea} rows={1} onChange={(e) => setComment(e.target.value)} placeholder="Комментарий"/>
-          <button disabled={!formField} className={styles.feedbackButton} onClick={() => saveFields()} >Отправить</button>
+          <div className={styles.feedbackInfo}>
+            <h1 className={styles.feedbackTitle}>Хотите сделать заказ?</h1>
+            <p className={styles.feedbackDescription}>Мы тщательно изучим ваш комментарий и перезвоним в ближайшее время для уточнения деталей и оформления дроби/картечи в нашем магазине. Благодарим за проявленный интерес к нашему ассортименту, ждем вашей заявки! </p>
+          </div>
+          <div className={styles.feedbackForm}>
+            <input className={styles.feedbackInput} type="text" onChange={(e) => setName(e.target.value)} placeholder="Ваше имя" />
+            <div className={styles.feedbackInputNano}>
+              <input className={styles.feedbackInputDouble} onChange={(e) => setTel(e.target.value)} type="tel" placeholder="Телефон" />
+              <input className={styles.feedbackInputDouble} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Почта" />
+            </div>
+            <textarea className={styles.feedbackArea} type="text" onChange={(e) => setComment(e.target.value)} placeholder="Комментарий" />
+            <p className={styles.feedbackPolice}>Нажимая кнопку, вы соглашаетесь на обработку персональных данных и с политикой конфиденциальности</p>
+            <button disabled={!formField} className={styles.feedbackSubmit} onClick={() => saveFields()}>Отправить</button>
+          </div>
         </div>
       </div>
     </section>
