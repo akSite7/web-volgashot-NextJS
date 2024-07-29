@@ -8,8 +8,8 @@ export default function Home() {
     <>
       <Intro />
       <Assortment />
-      <Feedback />
       <Inform />
+      <Feedback />
     </>
   );
 }
