@@ -87,7 +87,7 @@
 .assortmentPriceCard {
   @apply text-xl
 
-  /* Adaptive xxs */
+  /* Adaptive xs */
   xs:pt-2
 
   /* Adaptive xxs */

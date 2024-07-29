@@ -7,71 +7,132 @@
 ;}
 
 .feedbackContent {
-  @apply w-full justify-between items-start gap-10 mt-16 /*flex flex-row*/ 
+  @apply w-full justify-between items-start gap-10 mt-16
+
+  /* Adaptive 2xl */
+  2xl:flex flex-row
+
 ;}
 
 .feedbackInfo {
-  @apply w-4/12
+  @apply
 
+  /* Adaptive 2xl */
+  2xl:w-4/12
+
+  /* Adaptive xxs */
   xxs:w-full
+
 ;}
 
 .feedbackTitle {
-  @apply text-[50px] uppercase font-medium leading-[50px] mb-5
+  @apply uppercase font-medium
 
+  /* Adaptive 2xl */
+  2xl:text-[50px]
+  2xl:mb-5
+  2xl:leading-[50px]
+
+  /* Adaptive xxs */
   xxs:text-2xl
   xxs:mb-3
+
 ;}
 
 .feedbackDescription {
-  @apply text-[20px] text-gray-500 leading-7
-  
+  @apply  text-gray-500 leading-7
 
+  /* Adaptive 2xl */
+  2xl:text-[20px]
+  2xl:mb-0
+
+  /* Adaptive xxs */
   xxs:text-base
   xxs:mb-5
+
 ;}
 
 .feedbackForm {
-  @apply grid grid-cols-1 w-6/12
+  @apply grid grid-cols-1
 
+  /* Adaptive 2xl */
+  2xl:w-6/12
+
+  /* Adaptive xxs */
   xxs:w-full
+
 ;}
 
 .feedbackInput {
-  @apply h-14 mb-5 bg-opacity-30 bg-black pl-5
+  @apply h-14 mb-5 bg-opacity-30 bg-black
+
+  /* Adaptive 2xl */
+  2xl:text-left
+  2xl:pl-5
+
+/* Adaptive xxs */
   xxs:text-center
   xxs:pl-0
+
 ;}
 
 .feedbackInputNano {
-  @apply grid grid-cols-2 gap-5
+  @apply grid
 
+  /* Adaptive 2xl */
+  2xl:grid-cols-2 
+  2xl:gap-5
+
+  /* Adaptive xxs */
   xxs:grid-cols-1
   xxs:gap-0
+
 ;}
 
 .feedbackInputDouble {
   @apply h-14 mb-5 bg-opacity-30 bg-black pl-5
 
+  /* Adaptive 2xl */
+  2xl:text-left
+  2xl:pl-5
+
+  /* Adaptive xxs */
   xxs:text-center
   xxs:pl-0
+
 ;}
 
 .feedbackArea {
   @apply h-14 mb-3 bg-opacity-30 bg-black pl-5 min-h-[100px] max-h-[400px] pr-3 pt-4
+
+  /* Adaptive 2xl */
+  2xl:text-left
+
+  /* Adaptive xxs */
   xxs:text-center
  
 ;}
 
 .feedbackPolice {
-  @apply text-xs text-gray-500 w-6/12 
+  @apply text-gray-500
 
+  /* Adaptive 2xl */
+  2xl:text-xs
+  2xl:w-6/12 
+
+  /* Adaptive xxs */
   xxs:text-[12px]
   xxs:w-full
+
 ;}
 
 .feedbackSubmit {
-  @apply w-4/12 max-h-[50px] px-4 mt-3 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
+  @apply max-h-[50px] px-4 mt-3 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
 
+  /* Adaptive 2xl */
+  2xl:w-4/12
+
+  /* Adaptive xxs */
   xxs:w-full
+
 ;}
