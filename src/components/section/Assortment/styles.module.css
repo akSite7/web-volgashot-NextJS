@@ -1,5 +1,12 @@
 .assortment {
-  @apply w-full md:py-6
+  @apply w-full 
+  
+  /* 2XL */
+  2xl:pt-0
+
+  /* MD */
+  md:py-6
+
 ;}
 
 .assortmentContainer {
@@ -7,5 +14,9 @@
 ;}
 
 .assortmentTitle {
-  @apply text-3xl md:text-6xl text-gray-50 font-medium
+  @apply text-3xl font-medium text-gray-50
+
+  /* MD */
+  md:text-6xl
+
 ;}

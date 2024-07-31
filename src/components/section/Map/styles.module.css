@@ -1,0 +1,7 @@
+.informMap {
+  @apply  pb-24
+}
+
+.informMapBlock {
+  @apply w-full h-[400px]
+}

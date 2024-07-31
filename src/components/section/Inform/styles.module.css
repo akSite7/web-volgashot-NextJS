@@ -1,5 +1,5 @@
 .inform {
-  @apply w-full pt-10 pb-10
+  @apply w-full pt-10 
   
   /* Adaptive md */
   md:pb-20
@@ -10,68 +10,8 @@
   @apply container mx-auto
 ;}
 
-.informGrid {
-  @apply pt-10 grid gap-6
-
-  /* Adaptive sm */
-  sm:grid-cols-3
-
-;}
-
-.informCard {
-  @apply  flex flex-col items-center gap-2
-;}
-
 .informTitle {
-  @apply text-xl pt-5 font-medium text-white text-center
-
-  /* Adaptive xs */
-  xs:text-base
-
-  /* Adaptive xxs */
-  xxs:text-base
-  
-;}
-
-.informText {
-  @apply text-center max-w-96 text-gray-500
-
-   /* Adaptive xs */
-   xs:text-base
-
-  /* Adaptive xxs */
-  xxs:text-sm
-
-;}
-
-.informMap {
-  @apply rounded-lg mx-auto mt-10
-
-  /* Adaptive 2xl */
-  2xl:w-[1535px]
-
-  /* Adaptive xl */
-  xl:w-[1210px]
-
-  /* Adaptive lg */
-  lg:w-[935px]
-
-  /* Adaptive md */
-  md:w-[695px]
-
-  /* Adaptive sm */
-  sm:w-[575px]
-
-  /* Adaptive xs */
-  xs:w-[330px]
-
-  /* Adaptive xxs */
-  xxs:w-[260px]
-  
-;}
-
-.informTitleMain {
-  @apply text-3xl pt-10 text-gray-50 font-medium
+  @apply text-3xl pt-10 text-gray-50 font-medium text-center
 
   /* Adaptive md */
   md:text-4xl
@@ -82,7 +22,7 @@
 ;}
 
 .informDescription {
-  @apply pt-5 text-gray-500
+  @apply pt-5 text-gray-500 text-center
 
   /* Adaptive xs */
   xs:text-lg
@@ -91,8 +31,46 @@
   xxs:text-base
 ;}
 
-.informImage {
-  @apply
+.informArticles {
+  @apply flex justify-center
+}
+
+.informItems {
+  @apply pt-10 grid gap-10
+
+  /* Adaptive sm */
+  sm:grid-cols-2
+
+;}
+
+.informItem {
+  @apply flex flex-col items-center bg-action p-5  h-64 
+;}
+
+.informSubTitle {
+  @apply text-xl pt-5 font-medium text-white
+
+  /* Adaptive xs */
+  xs:text-base
+
+  /* Adaptive xxs */
+  xxs:text-base
+  
+;}
+
+.informText {
+  @apply text-center max-w-96 text-gray-500 
+
+   /* Adaptive xs */
+   xs:text-base
+
+  /* Adaptive xxs */
+  xxs:text-sm
+
+;}
+
+.informImage { 
+  @apply 
   /* Adaptive xs */
   xs:w-[85px]
 
