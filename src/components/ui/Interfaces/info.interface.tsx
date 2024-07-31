@@ -1,11 +1,9 @@
-export type Shot = {
+export type Info = {
   id: number;
   attributes: {
     item: any;
-    tag: string;
     title: string;
-    description: string;
-    price: string;
+    text: string;
     image: {
       data: {
         attributes: {

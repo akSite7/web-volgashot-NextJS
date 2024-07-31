@@ -1,33 +1,13 @@
 "use client"
-
 import React from "react";
 import styles from './styles.module.css';
 import Image from "next/image";
 import useOthers from "@/hooks/useOther";
 import ButtonBuy from "@/components/ui/ButtonBuy/ButtonBuy";
-
-interface Shot {
-  id: number;
-  attributes: {
-    item: any;
-    tag: string;
-    title: string;
-    description: string;
-    price: string;
-    image: {
-      data: {
-        attributes: {
-          url: string;
-        }
-      }
-    }
-  }
-}
+import { Shot } from '@/components/ui/Interfaces/shot.interface';
 
 const Other = () => {
-
   const getOther = useOthers()
-
   return (
     <section className={styles.assortment}>
       <div className={styles.assortmentContainer}>
@@ -48,5 +28,4 @@ const Other = () => {
     </section>
   )
 }
-
 export default Other;

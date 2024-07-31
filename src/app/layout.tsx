@@ -21,8 +21,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <meta name="yandex-verification" content="b4c10d78210ffc04" />
         <meta name="keywords" content="Дробь, Картечь, Охотничья от производителя, Охота"/>
         <meta property="og:type" content="website"/>
-        <meta property="og:title" content="VSHOT - Продажа охотничьей дроби и картечи от производителя"/>
-        <meta property="og:description" content="Специализированный онлайн магазин, который предлагает ассортимент охотничьей дроби и картечи от производителя высокого качества для охотников, спортсменов и любителей стрелкового дела. На нашем сайте вы найдете разнообразные виды дроби и картечи. Мы гарантируем только оригинальную продукцию, которая отличается надежностью, точностью и безопасностью использования. Доверьтесь опыту и надежности VSHOT (VOLGASHOT) и наслаждайтесь покупками без лишних хлопот!"/>
         <meta property="og:url" content="https://volgashot.ru/"/>
         <link rel='icon' href='https://volgashot.ru/favicon.ico' type="image/x-icon"/>
       </head>

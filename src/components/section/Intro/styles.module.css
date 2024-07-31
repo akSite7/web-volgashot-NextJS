@@ -31,7 +31,7 @@
 ;}
 
 .introTitle {
-  @apply text-3xl text-gray-50 font-medium 
+  @apply text-3xl font-medium text-gray-50
   
   /* Adaptive md */
   md:text-6xl
@@ -57,9 +57,6 @@
   /* Adaptive md */
   md:w-4/5
 
-  /* Adaptive sm */
-  sm:w-full
-  
 ;}
 
 .introActionItem {
@@ -71,17 +68,9 @@
 ;}
 
 .introActionPrimary {
-  @apply w-full px-4 py-2 bg-indigo-600 rounded-md text-gray-50 font-medium text-center
-
-  /* Adaptive sm */
-  sm:w-auto
-
+  @apply w-full px-4 py-2 rounded-md font-medium text-center bg-indigo-600 text-gray-50
 ;}
 
 .introActionOutline {
-  @apply w-full px-4 py-2 font-medium text-gray-200 text-center border border-gray-800 bg-white/5 rounded-lg
-
-  /* Adaptive sm */
-  sm:w-auto
-
+  @apply w-full px-4 py-2 font-medium text-center border rounded-lg text-gray-200 border-gray-800 bg-white/5 
 ;}

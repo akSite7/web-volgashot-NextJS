@@ -1,5 +1,4 @@
 "use client"
-
 import Badge from "@/components/ui/Badge/Badge";
 import React from "react";
 import styles from './styles.module.css';
@@ -11,9 +10,7 @@ const Assortment = () => {
   return (
     <section className={styles.assortment} id="assortment">
       <div className={styles.assortmentContainer}>
-        <h2>
-          <Badge>🛒 Наш ассортимент</Badge>
-        </h2>
+        <h2><Badge>🛒 Наш ассортимент</Badge></h2>
         <div className={styles.assortmentContent}>
           <div className="tab">
             <input defaultChecked className="pointer" type="radio" name="tab-btn" id="tab-btn-1" value=""/>
@@ -39,5 +36,4 @@ const Assortment = () => {
     </section>
   )
 }
-
 export default Assortment;

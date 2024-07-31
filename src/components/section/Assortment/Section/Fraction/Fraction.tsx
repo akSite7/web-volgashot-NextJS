@@ -1,40 +1,18 @@
 "use client"
-
 import React from "react";
 import styles from './styles.module.css';
 import Image from "next/image";
 import useFractions from "@/hooks/useFraction";
 import ButtonBuy from "@/components/ui/ButtonBuy/ButtonBuy";
-
-interface Shot {
-  id: number;
-  attributes: {
-    item: any;
-    tag: string;
-    title: string;
-    description: string;
-    price: string;
-    image: {
-      data: {
-        attributes: {
-          url: string;
-        }
-      }
-    }
-  }
-}
+import { Shot } from '@/components/ui/Interfaces/shot.interface';
 
 const Fraction = () => {
-
   const getFraction = useFractions()
-
   return (
     <section className={styles.assortment}>
       <div className={styles.assortmentContainer}>
         <h2 className={styles.assortmentTitle}>Дробь</h2>
-        <p className={styles.assortmentText}>Размеры соответствуют ГОСТ 7837-76 и имеют шаг 0,25 мм 
-          <br />Возможность заказа от 2 килограмм.
-        </p>
+        <p className={styles.assortmentText}>Размеры соответствуют ГОСТ 7837-76 и имеют шаг 0,25 мм <br />Возможность заказа от 2 килограмм.</p>
         <div className={styles.assortmentContent}>
           {getFraction.filter((item: Shot) => item.attributes.tag === 'Дробь').map((item: Shot, index) => (
             <div key={index}>
@@ -50,5 +28,4 @@ const Fraction = () => {
     </section>
   )
 }
-
 export default Fraction;

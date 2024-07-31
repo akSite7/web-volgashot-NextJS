@@ -1,0 +1,7 @@
+.mapContainer {
+  @apply pb-24
+;}
+
+.mapFrame {
+  @apply w-full h-[400px]
+;}
