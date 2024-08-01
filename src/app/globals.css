@@ -18,7 +18,7 @@ html {
 #tab-btn-1:checked~#content-1,
 #tab-btn-2:checked~#content-2,
 #tab-btn-3:checked~#content-3 {
-  display: block;
+  display: block; 
 }
 
 .tab > input[type="radio"] {
