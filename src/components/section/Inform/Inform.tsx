@@ -11,7 +11,7 @@ const Inform = () => {
     <section className={styles.inform}>
       <div className={styles.informContainer}>
         <h3 className={styles.informTitle}>Доставку осуществляем всеми транспортными <br />компаниями по согласованию.</h3>
-        <p className={styles.informDescription}>Принимаем заказы от 1 000 рублей. <br />Оптовые продажи обсуждаются отдельно.</p>
+        <p className={styles.informDescription}>Принимаем заказы от 2кг. <br />Оптовые продажи обсуждаются отдельно.</p>
         <div className={styles.informArticles}>
           <ul className={styles.informItems}>
           {getInform.map((item: Info, index) => (
