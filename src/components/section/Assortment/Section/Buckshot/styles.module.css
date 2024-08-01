@@ -99,3 +99,7 @@
 .assortmentImageCard {
   @apply rounded-md
 ;}
+
+.assortmentPriceInfo {
+  @apply text-sm
+;}

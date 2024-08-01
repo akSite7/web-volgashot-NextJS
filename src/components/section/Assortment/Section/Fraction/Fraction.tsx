@@ -19,7 +19,10 @@ const Fraction = () => {
               <Image className={styles.assortmentImageCard} width={700} height={0} src={process.env.NEXT_PUBLIC_STRAPI_API_URL + (item?.attributes?.image?.data.attributes?.url ?? '')} alt=""/>
               <div className={styles.assortmentTitleCard}>{item.attributes?.title}</div>
               <div className={styles.assortmentTextCard}>{item.attributes?.description}</div>
-              <div className={styles.assortmentPriceCard}>{item.attributes?.price} <span className={styles.assortmentPriceInfo}>за 1кг</span></div>
+              <div className={styles.assortmentPriceCard}>
+                {item.attributes?.price}
+                <span className={styles.assortmentPriceInfo}>за 1кг</span>
+              </div>
               <ButtonBuy />
             </div>
           ))}
