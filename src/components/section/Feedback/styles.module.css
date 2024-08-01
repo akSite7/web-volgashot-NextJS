@@ -1,7 +1,15 @@
 .feedback {
   @apply w-full pt-10 pb-36
+
+  /* 2XL */
   2xl:pb-36
+
+  /* XS */
+  xs:pt-10
+  
+  /* XXS */
   xxs:pb-10
+  xxs:pt-0
 ;}
 
 .feedbackContainer {
@@ -11,17 +19,17 @@
 .feedbackContent {
   @apply w-full justify-between items-start gap-10 mt-16
 
-  /* 2XL */
+  /* XL */
   xl:flex
-
 ;}
 
 .feedbackInfo {
   @apply
 
+  /* 2XL */
   2xl:w-5/12
 
-  /* 2XL */
+  /* XL */
   xl:w-6/12
   xl:mt-8
   xl:p-10
@@ -29,31 +37,28 @@
 
   /* XXS */
   xxs:w-full
-
 ;}
 
 .feedbackTitle {
   @apply uppercase font-medium text-white
 
-  /* 2XL */
+  /* XL */
   xl:text-5xl
   xl:mb-5
 
   /* XXS */
   xxs:text-2xl
   xxs:mb-3
-
 ;}
 
 .feedbackDescription {
   @apply  text-gray-500 
 
-  /* 2XL */
+  /* XL */
   xl:text-xl
   xl:mb-0
   xl:leading-7
 
   /* XXS */
   xxs:mb-5
-
 ;}

@@ -1,7 +1,11 @@
 .mapContainer {
-  @apply pb-24
-  2xl:pb-24
-  xxs:pb-16
+  @apply 
+
+  /* ADAPTIVE XS */
+  xs:pb-24
+
+  /* ADAPTIVE XXS */
+  xxs:pb-10
 ;}
 
 .mapFrame {

@@ -1,9 +1,8 @@
 .inform {
   @apply w-full pt-10 
   
-  /* Adaptive md */
-  md:pb-20
-
+  /* XL */
+  xl:pb-20
 ;}
 
 .informContainer {
@@ -13,68 +12,76 @@
 .informTitle {
   @apply text-3xl pt-10 text-gray-50 font-medium text-center
 
-  /* Adaptive md */
+  /* MD */
   md:text-4xl
 
-  /* Adaptive xxs */
-  xxs:text-xl
+  /* XS */
+  xs:pt-10
 
+  /* XXS */
+  xxs:text-xl
+  xxs:pt-0
 ;}
 
 .informDescription {
   @apply pt-5 text-gray-500 text-center
 
-  /* Adaptive xs */
+  /* XS */
   xs:text-lg
 
-  /* Adaptive xxs */
+  /* XXS */
   xxs:text-base
 ;}
 
 .informArticles {
   @apply flex justify-center
-}
+;}
 
 .informItems {
   @apply pt-10 grid gap-10
 
-  /* Adaptive sm */
+  /* SM */
   sm:grid-cols-2
-
 ;}
 
 .informItem {
-  @apply flex flex-col items-center bg-action p-5  h-64 
+  @apply flex flex-col items-center bg-action p-5
+
+  /* XS */
+  xs:h-64
+
+  /* XXS */
+  xxs:h-auto
 ;}
 
 .informSubTitle {
   @apply text-xl pt-5 font-medium text-white
 
-  /* Adaptive xs */
+  /* XS */
   xs:text-base
+  xs:pt-5
 
-  /* Adaptive xxs */
+  /* XXS */
   xxs:text-base
-  
+  xxs:pt-0
 ;}
 
 .informText {
   @apply text-center max-w-96 text-gray-500 
 
-   /* Adaptive xs */
-   xs:text-base
+  /* XS */
+  xs:text-base
 
-  /* Adaptive xxs */
+  /* XXS */
   xxs:text-sm
-
 ;}
 
 .informImage { 
   @apply 
-  /* Adaptive xs */
+
+  /* XS */
   xs:w-[85px]
 
-  /* Adaptive xxs */
+  /* XXS */
   xxs:w-[70px]
-
 ;}

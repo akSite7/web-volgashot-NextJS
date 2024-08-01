@@ -1,14 +1,13 @@
 .intro {
   @apply w-full pt-6 bg-no-repeat bg-[length:1000px_1000px] bg-[left_95%_top_380%]
 
-  /* Adaptive xl2 */
+  /* 2XL */
   2xl:h-screen
   2xl:bg-gun
   2xl:pb-0
 
-  /* Adaptive md */
+  /* MD */
   md:py-16
-
 ;}
 
 .introContainer {
@@ -18,12 +17,11 @@
 .introContent {
   @apply grid pt-8 pb-10 gap-4 
 
-  /* Adaptive xl2 */
+  /* 2XL */
   2xl:grid-cols-[55%,45%]
 
-  /* Adaptive md */
+  /* MD */
   md:pb-0
-  
 ;}
 
 .introLeft {
@@ -33,18 +31,16 @@
 .introTitle {
   @apply text-3xl font-medium text-gray-50
   
-  /* Adaptive md */
+  /* MD */
   md:text-6xl
-
 ;}
 
 .introActions {
   @apply flex flex-col w-full gap-5
 
-  /* Adaptive sm */
+  /* SM */
   sm:w-auto 
   sm:flex-row
-
 ;}
 
 .introText {
@@ -54,17 +50,15 @@
 .introBottom {
   @apply flex items-start flex-col gap-14
 
-  /* Adaptive md */
+  /* MD */
   md:w-4/5
-
 ;}
 
 .introActionItem {
   @apply inline-flex w-full 
   
-  /* Adaptive sm */ 
+  /* SM */ 
   sm:w-auto
-
 ;}
 
 .introActionPrimary {

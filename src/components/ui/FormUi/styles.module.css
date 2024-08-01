@@ -1,4 +1,3 @@
-
 .feedbackForm {
   @apply grid grid-cols-1 p-10 pt-7 bg-action
 
@@ -7,7 +6,6 @@
 
   /* XXS */
   xxs:w-full
-
 ;}
 
 .feedbackSubTitle {
@@ -24,7 +22,6 @@
  /* XXS */
   xxs:text-center
   xxs:pl-0
-
 ;}
 
 .feedbackInputNano {
@@ -37,7 +34,6 @@
   /* XXS */
   xxs:grid-cols-1
   xxs:gap-0
-
 ;}
 
 .feedbackInputDouble {
@@ -50,7 +46,6 @@
   /* XXS */
   xxs:text-center
   xxs:pl-0
-
 ;}
 
 .feedbackArea {
@@ -61,7 +56,7 @@
 
   /* XXS */
   xxs:text-center
- 
+
 ;}
 
 .feedbackPolice {
@@ -76,5 +71,4 @@
 
   /* XXS */
   xxs:w-full
-
 ;}
