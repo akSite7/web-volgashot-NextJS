@@ -6,33 +6,6 @@
   
 ;}
 
-.assortmentContent {
-  @apply grid pt-8 pb-10 gap-20 grid-cols-4
-
-  /* Adaptive 2xl */
-  2xl:grid-cols-4
-  2xl:gap-20
-
-  /* Adaptive lg */
-  lg:grid-cols-3
-
-  /* Adaptive md */
-  md:grid-cols-3
-
-  /* Adaptive sm */
-  sm:grid-cols-2
-  sm:gap-8
-
-  /* Adaptive xs */
-  xs:grid-cols-2
-  xs:gap-8
-
-  /* Adaptive xxs */
-  xxs:grid-cols-2
-  xxs:gap-8
-
-;}
-
 .assortmentTitle {
   @apply pt-8 text-gray-50 font-medium
 
@@ -44,7 +17,7 @@
 
 ;}
 
-.assortmentText {
+.assortmentDescription {
   @apply text-lg text-gray-500 
 
   /* Adaptive md */
@@ -62,30 +35,68 @@
 
 ;}
 
-.assortmentTitleCard {
+/* КОНТЕЙНЕР КАРТОЧКИ ТОВАРА */
+
+.assortmentCard {
+  @apply grid pt-8 pb-10 grid-cols-4
+
+  /* Adaptive 2xl */
+  2xl:grid-cols-4
+  2xl:gap-y-20
+  2xl:pb-10
+
+  /* Adaptive lg */
+  lg:grid-cols-3
+
+  /* Adaptive md */
+  md:grid-cols-3
+
+  /* Adaptive sm */
+  sm:grid-cols-2
+  sm:gap-8
+
+  /* Adaptive xs */
+  xs:grid-cols-2
+  xs:gap-8
+
+  /* Adaptive xxs */
+  xxs:grid-cols-2
+  xxs:gap-5
+  xxs:pb-0
+
+;}
+
+/* КАРТОЧКА ТОВАРА */
+
+.assortmentCardImage {
+  @apply rounded-md
+;}
+
+.assortmentCardTitle {
   @apply pt-2 text-gray-50
 
   /* Adaptive md */
-  md:text-xl
-
-  /* Adaptive xs */
-  xs:text-lg
+  md:text-2xl
 
   /* Adaptive xxs */
   xxs:text-lg
 
 ;}
 
-.assortmentTextCard {
+.assortmentCardDescription {
   @apply pt-1 max-h-7
+
+  2xl:text-sm
 
   /* Adaptive xxs */
   xxs:text-xs
 
 ;}
 
-.assortmentPriceCard {
+.assortmentCardPrice {
   @apply text-xl
+
+  2xl:pb-5
 
   /* Adaptive xs */
   xs:pt-2
@@ -96,10 +107,6 @@
 
 ;}
 
-.assortmentImageCard {
-  @apply rounded-md
-;}
-
-.assortmentPriceInfo {
+.assortmentInfoPrice {
   @apply text-sm
 ;}

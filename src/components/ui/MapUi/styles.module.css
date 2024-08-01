@@ -1,5 +1,7 @@
 .mapContainer {
   @apply pb-24
+  2xl:pb-24
+  xxs:pb-16
 ;}
 
 .mapFrame {

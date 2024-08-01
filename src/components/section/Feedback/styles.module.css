@@ -1,5 +1,7 @@
 .feedback {
   @apply w-full pt-10 pb-36
+  2xl:pb-36
+  xxs:pb-10
 ;}
 
 .feedbackContainer {
