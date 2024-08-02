@@ -1,7 +1,5 @@
 const axios = require("axios");
-// Вызываем переменную с токенов из .env
 const API_TOKEN = process.env.NEXT_PUBLIC_STRAPI_API_TOKEN;
-// Создаем подключение клиента
 const axiosClient = axios.create({
     baseURL: process.env.NEXT_PUBLIC_STRAPI_API_URL + "/api",
     headers: {
@@ -9,7 +7,6 @@ const axiosClient = axios.create({
     }
 });
 
-// API - запросы
 const getInform = () => axiosClient.get('/informs?populate=*')
 const getFraction = () => axiosClient.get('/fractions?populate=*')
 const getBuckshot = () => axiosClient.get('/buckshots?populate=*')
