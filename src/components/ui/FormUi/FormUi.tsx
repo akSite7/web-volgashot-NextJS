@@ -34,7 +34,7 @@ const FormUi = () => {
     })
   }
   return (
-    <div className={styles.feedbackForm}>
+    <form className={styles.feedbackForm}>
       <h2 className={styles.feedbackSubTitle}>Заполните форму</h2>
       <input required className={styles.feedbackInput} type="text" onChange={(e) => setName(e.target.value)} placeholder="Ваше имя" />
       <div className={styles.feedbackInputNano}>
@@ -44,7 +44,7 @@ const FormUi = () => {
       <textarea className={styles.feedbackArea} onChange={(e) => setComment(e.target.value)} placeholder="Комментарий" />
       <p className={styles.feedbackPolice}>Нажимая кнопку, вы соглашаетесь на обработку персональных данных и с политикой конфиденциальности</p>
       <button disabled={!formField} className={styles.feedbackSubmit} onClick={() => saveFields()}>Отправить</button>
-    </div>
+    </form>
   )
 }
 export default FormUi;

@@ -1,10 +1,10 @@
 .mapContainer {
   @apply 
 
-  /* ADAPTIVE XS */
+  /* XS */
   xs:pb-24
 
-  /* ADAPTIVE XXS */
+  /* XXS */
   xxs:pb-10
 ;}
 

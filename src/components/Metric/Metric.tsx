@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import Router from "next/router";
 import React, { useCallback, useEffect } from "react";
 import ym, { YMInitializer } from "react-yandex-metrika";

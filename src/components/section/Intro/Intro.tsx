@@ -1,5 +1,4 @@
 "use client"
-
 import React from "react";
 import Badge from "@/components/ui/Badge/Badge";
 import Link from "next/link";

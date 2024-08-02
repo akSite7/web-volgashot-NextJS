@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import head from "next/head";
-import YandexMetrikaContainer from "@/components/metrika/metrika";
+import YandexMetrikaContainer from "@/components/Metric/Metric";
 
 const inter = Inter(
   { subsets: ["cyrillic"] }
