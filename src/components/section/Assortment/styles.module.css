@@ -10,6 +10,9 @@
 
 .assortmentContainer {
   @apply container mx-auto
+
+  /* XXS */
+  xxs:pb-0
 ;}
 
 .assortmentTitle {
