@@ -9,7 +9,7 @@
 .footerContent {
   @apply w-full flex flex-col justify-between items-start gap-10
 
-  /* Adaptive lg */
+  /* LG */
   lg:flex-row
 
 ;}
@@ -17,16 +17,16 @@
 .footerBrand {
   @apply w-full space-y-5
   
-  /* Adaptive 2xl */
+  /* 2XL */
   2xl:w-3/12
 
-  /* Adaptive lg */
+  /* LG */
   lg:w-6/12
 
 ;}
  
 .footerLogo {
-  @apply text-2xl text-gray-50 font-semibold
+  @apply text-2xl font-semibold
 ;}
 
 .footerDesc{
@@ -35,16 +35,16 @@
 ;}
 
 .footerPages {
-  @apply w-full grid grid-cols-1 gap-5
+  @apply w-full grid grid-cols-1 gap-5 text-gray-400
 
-  /* Adaptive 2xl */
+  /* 2XL */
   2xl:grid-cols-3
 
-  /* Adaptive lg */
+  /* LG */
   lg:w-9/12
   lg:grid-cols-2
 
-  /* Adaptive sm */
+  /* SM */
   sm:grid-cols-2
 
 ;}
@@ -54,7 +54,7 @@
 ;}
 
 .footerPagesTitle {
-  @apply text-gray-50 text-lg font-medium
+  @apply text-lg font-medium
 ;}
 
 .footerPagesItems {
@@ -64,5 +64,3 @@
 .footerPagesLink {
   @apply hover:underline
 ;}
-
-

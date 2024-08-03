@@ -1,7 +1,6 @@
-"use client"
-import Badge from "@/components/ui/Badge/Badge";
+"use client";
 import styles from "./styles.module.css";
-import FormUi from "@/components/ui/FormUi/FormUi";
+import Form from "@/components/ui/Form/Form";
 
 const Feedback = () => {
   return (
@@ -12,7 +11,7 @@ const Feedback = () => {
             <h1 className={styles.feedbackTitle}>Хотите сделать заказ?</h1>
             <p className={styles.feedbackDescription}>Мы тщательно изучим ваш комментарий и перезвоним в ближайшее время для уточнения деталей и оформления дроби/картечи в нашем магазине. Благодарим за проявленный интерес к нашему ассортименту, ждем вашей заявки! </p>
           </div>
-          <FormUi />
+          <Form />
         </div>
       </div>
     </section>

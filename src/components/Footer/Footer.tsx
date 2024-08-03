@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Link from "next/link";
 import styles from "./styles.module.css";
@@ -27,7 +27,7 @@ const Footer = () => {
                     <Link href={'/buckshots'} className={styles.footerPagesLink}>Картечь</Link>
                 </li>
                 <li>
-                    <Link href={'/other'} className={styles.footerPagesLink}>Прочее</Link>
+                    <Link href={'/others'} className={styles.footerPagesLink}>Прочее</Link>
                 </li>
               </ul>
             </div>

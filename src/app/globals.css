@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: bg-background;
+}
+
 .tab {
   margin-top: 20px;
   @apply xs:text-base xxs:text-sm;

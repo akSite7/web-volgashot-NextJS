@@ -7,14 +7,14 @@ const axiosClient = axios.create({
     }
 });
 
-const getInform = () => axiosClient.get('/informs?populate=*')
+const getAdditional = () => axiosClient.get('/additionally?populate=*')
 const getFraction = () => axiosClient.get('/fractions?populate=*')
 const getBuckshot = () => axiosClient.get('/buckshots?populate=*')
 const createOrder = (data: Record<string, any>) => axiosClient.post('/feedbacks', data)
 const getOther = () => axiosClient.get('/others?populate=*')
 
 export default {
-  getInform,
+  getAdditional,
   getFraction,
   getBuckshot,
   createOrder,

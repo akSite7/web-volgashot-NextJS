@@ -1,4 +1,4 @@
-import Buckshot from "@/components/section/Assortment/Section/Buckshot/Buckshot";
+import Buckshot from "@/components/section/Assortment/category/Buckshot/Buckshot";
 import Feedback from "@/components/section/Feedback/Feedback";
 
 export default function Buckshots() {

@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
-import head from "next/head";
-import YandexMetrikaContainer from "@/components/Metric/Metric";
+import Header from "@/components/Header/Header";
+import YandexMetrikaContainer from "@/components/Metrica/Metrica";
 
-const inter = Inter(
-  { subsets: ["cyrillic"] }
-);
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "VSHOT - Продажа охотничьей дроби и картечи от производителя",
@@ -17,24 +14,22 @@ export const metadata: Metadata = {
 
 const analyticsEnabled = !!(process.env.NODE_ENV === "production");
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>)   {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="ru">
       <head>
-        <meta name="yandex-verification" content="b4c10d78210ffc04" />
-        <meta name="keywords" content="Дробь, Картечь, Охотничья от производителя, Охота"/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://volgashot.ru/"/>
         <link rel='icon' href='https://volgashot.ru/favicon.ico' type="image/x-icon"/>
       </head>
-      <body className={inter.className + ' bg-background text-gray-400 text-base overflow-x-hidden'}>
-        <div className="__next">
+      <body className={inter.className + ' bg-background text-white'}>
+        <main className="__next">
           <Header />
-            {children}
+          {children}
           <Footer />
-        </div>
-        <YandexMetrikaContainer enabled={analyticsEnabled} />
+        </main>
       </body>
+      <YandexMetrikaContainer enabled={analyticsEnabled} />
     </html>
   );
 }

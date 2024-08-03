@@ -9,7 +9,7 @@ const MenuList = [
   },
   { 
     label: 'Прочее', 
-    href: '/other'
+    href: '/others'
   },
   { 
     label: 'Контакты', 

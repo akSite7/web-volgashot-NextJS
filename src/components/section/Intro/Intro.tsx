@@ -1,8 +1,7 @@
-"use client"
+"use client";
 import React from "react";
 import Badge from "@/components/ui/Badge/Badge";
 import Link from "next/link";
-import Image from "next/image";
 import styles from './styles.module.css';
 
 const Intro = () => {

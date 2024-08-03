@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import Badge from "@/components/ui/Badge/Badge";
 import React from "react";
 import styles from './styles.module.css';
-import Fraction from "./Section/Fraction/Fraction";
-import Buckshot from "./Section/Buckshot/Buckshot";
-import Other from "./Section/Other/Other";
+import Fraction from "./category/Fraction/Fraction";
+import Buckshot from "./category/Buckshot/Buckshot";
+import Other from "./category/Other/Other";
 
 const Assortment = () => {
   return (

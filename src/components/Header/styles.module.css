@@ -10,10 +10,14 @@
   @apply flex items-center gap-10
 ;}
 
+.headerBrand {
+  @apply text-gray-400
+}
+
 .nav {
   @apply hidden 
 
-  /* Adaptive md */
+  /* MD */
   md:block
 
 ;}
@@ -27,7 +31,7 @@
 ;}
 
 .navLink {
-  @apply text-gray-200 hover:text-indigo-600
+  @apply hover:text-indigo-600
 ;}
 
 .headerMarketItem {
@@ -35,13 +39,12 @@
 ;}
 
 .headerMarketLink {
-  @apply px-4 py-2 text-gray-200 border border-gray-800 bg-white/5 rounded-md text-center hover:bg-indigo-600
+  @apply px-4 py-2  border border-gray-800 bg-white/5 rounded-md text-center hover:bg-indigo-600
 
-  /* Adaptive md */
+  /* MD */
   md:block
 
-  /* Adaptive xxs */
+  /* XSS */
   xxs:hidden
 
 ;}
-

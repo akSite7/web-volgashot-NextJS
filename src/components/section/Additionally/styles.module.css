@@ -1,22 +1,21 @@
 .inform {
-  @apply w-full pt-10 
+  @apply w-full
   
-  /* XL */
-  xl:pb-20
+  
 ;}
 
 .informContainer {
   @apply container mx-auto
+
+  /* XL */
+  xl:pb-24
 ;}
 
 .informTitle {
-  @apply text-3xl pt-10 text-gray-50 font-medium text-center
+  @apply text-3xl text-gray-50 font-medium text-center
 
   /* MD */
   md:text-4xl
-
-  /* XS */
-  xs:pt-10
 
   /* XXS */
   xxs:text-xl

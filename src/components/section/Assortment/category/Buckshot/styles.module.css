@@ -1,5 +1,5 @@
 .assortmentContainer {
-  @apply mx-auto 
+  @apply mx-auto pb-36
 
   /* MD */
   md:container

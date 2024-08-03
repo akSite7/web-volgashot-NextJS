@@ -1,23 +1,19 @@
 .feedback {
-  @apply w-full pt-10 pb-36
-
-  /* 2XL */
-  2xl:pb-36
-
-  /* XS */
-  xs:pt-10
-  
-  /* XXS */
-  xxs:pb-10
-  xxs:pt-0
+  @apply w-full
 ;}
 
 .feedbackContainer {
   @apply container mx-auto
+
+  /* 2XL */
+  2xl:pb-24
+  
+  /* XXS */
+  xxs:pb-10
 ;}
 
 .feedbackContent {
-  @apply w-full justify-between items-start gap-10 mt-16
+  @apply w-full justify-between items-start gap-10 
 
   /* XL */
   xl:flex

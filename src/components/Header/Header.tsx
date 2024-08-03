@@ -1,15 +1,15 @@
-"use client"
-import MenuList from "@/collections/MenuList";
+"use client";
 import React from "react";
 import Link from "next/link";
 import styles from './styles.module.css';
+import MenuList from "@/collections/MenuList";
 
 const Header = () => {
   return (
     <header className={styles.header} id='header'>
       <div className={styles.headerContainer}>
         <div className={styles.headerLeft}>
-          <Link href={'/'}>
+          <Link className={styles.headerBrand} href={'/'}>
             VSHOT
           </Link>
           <nav className={styles.nav}>

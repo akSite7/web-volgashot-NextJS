@@ -1,4 +1,4 @@
-import Fraction from "@/components/section/Assortment/Section/Fraction/Fraction";
+import Fraction from "@/components/section/Assortment/category/Fraction/Fraction";
 import Feedback from "@/components/section/Feedback/Feedback";
 
 export default function Fractions() {

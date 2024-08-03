@@ -1,7 +1,7 @@
-import Other from "@/components/section/Assortment/Section/Other/Other";
+import Other from "@/components/section/Assortment/category/Other/Other";
 import Feedback from "@/components/section/Feedback/Feedback";
 
-export default function Fractions() {
+export default function Others() {
   return (
     <>
       <div className="p-9">
