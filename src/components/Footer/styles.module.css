@@ -50,7 +50,7 @@
 ;}
 
 .footerPagesContent {
-  @apply w-full space-y-5 text-gray-400
+  @apply w-full space-y-5
 ;}
 
 .footerPagesTitle {
@@ -58,7 +58,7 @@
 ;}
 
 .footerPagesItems {
-  @apply w-full space-y-3
+  @apply w-full space-y-3 text-gray-400
 ;}
 
 .footerPagesLink {
