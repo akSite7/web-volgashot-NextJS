@@ -105,5 +105,5 @@
 ;}
 
 .assortmentInfoPrice {
-  @apply text-sm
+  @apply text-sm text-gray-400
 ;}
