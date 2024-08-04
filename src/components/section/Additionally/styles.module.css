@@ -1,7 +1,5 @@
 .inform {
   @apply w-full
-  
-  
 ;}
 
 .informContainer {
@@ -11,7 +9,7 @@
   xl:pb-24
 
   /* XXS */
-  xxs:pb-16
+  xxs:pb-10
 ;}
 
 .informTitle {
