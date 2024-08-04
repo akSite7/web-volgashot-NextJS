@@ -81,7 +81,7 @@
 ;}
 
 .assortmentCardDescription {
-  @apply pt-1 max-h-7
+  @apply pt-1 max-h-7 text-gray-400
 
   /* 2XL */
   2xl:text-sm
@@ -91,7 +91,7 @@
 ;}
 
 .assortmentCardPrice {
-  @apply text-xl
+  @apply text-xl text-gray-400
 
   /* 2XL */
   2xl:pb-5
@@ -105,5 +105,5 @@
 ;}
 
 .assortmentInfoPrice {
-  @apply text-sm
+  @apply text-sm text-gray-400
 ;}
