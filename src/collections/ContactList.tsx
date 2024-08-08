@@ -27,9 +27,5 @@ const contactList = [
     title: "ОКТМО:",
     value: "18701000001",
   },
-  {
-    title: "Директор:",
-    value: "Бондаренко Алексей Вениаминович",
-  },
 ];
 export default contactList;
