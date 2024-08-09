@@ -1,8 +1,19 @@
 .assortmentContainer {
   @apply mx-auto
+    
+  /* 2XL */
+  2xl:pt-0
+
+  /* XL */
+  xl:pb-24
 
   /* MD */
   md:container
+  md:py-6
+  md:pb-16
+  
+  /* XXS */
+  xxs:pb-10
 ;}
 
 .assortmentTitle {

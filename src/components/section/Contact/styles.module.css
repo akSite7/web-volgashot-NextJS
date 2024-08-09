@@ -1,5 +1,5 @@
 .contact {
-  @apply w-full pt-10 pb-10 md:pb-20 
+  @apply w-full pb-10 md:pb-20 
 ;}
 
 .contactContainer {
@@ -24,4 +24,10 @@
 
 .contactSpan { 
   @apply inline-block w-64
+  
+  /* XL */
+  xl:w-64
+
+  /* XXS */
+  xxs:w-28
 ;}

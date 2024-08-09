@@ -4,10 +4,10 @@ import Feedback from "@/components/section/Feedback/Feedback";
 export default function Buckshots() {
   return (
     <>
-      <div className="p-9">
+      <div className="p-9 pt-0">
         <Buckshot />
-        <Feedback />
       </div>
+      <Feedback />
     </>
   );
 }

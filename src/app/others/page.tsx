@@ -4,10 +4,10 @@ import Feedback from "@/components/section/Feedback/Feedback";
 export default function Others() {
   return (
     <>
-      <div className="p-9">
+      <div className="p-9 pt-0">
         <Other />
-        <Feedback />
       </div>
+      <Feedback />
     </>
   );
 }

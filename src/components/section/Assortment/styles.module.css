@@ -4,15 +4,6 @@
 
 .assortmentContainer {
   @apply container mx-auto
-    
-  /* 2XL */
-  2xl:pt-0
-
-  /* MD */
-  md:py-6
-  
-  /* XXS */
-  xxs:pb-10
 ;}
 
 .assortmentTitle {
