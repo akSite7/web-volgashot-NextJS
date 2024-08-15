@@ -10,7 +10,7 @@ const Header = () => {
       <div className={styles.headerContainer}>
         <div className={styles.headerLeft}>
           <Link className={styles.headerBrand} href={'/'}>
-            VSHOT
+            VOLGASHOT
           </Link>
           <nav className={styles.nav}>
             <menu className={styles.navMenu}>
