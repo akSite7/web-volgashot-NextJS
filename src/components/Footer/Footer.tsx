@@ -12,7 +12,7 @@ const Footer = () => {
         <div className={styles.footerContent}>
           <div className={styles.footerBrand}>
             <Link href={'/'} className={styles.footerLogo}>
-              VSHOT
+              VOLGASHOT
             </Link>
             <p className={styles.footerDesc}>Мы надеемся что после приобретения нашей продукции у вас останутся только положительные эмоции. Мы работаем над тем, чтобы наши товары были высокого качества. В случае каких-либо проблем или вопросов, пожалуйста, не стесняйтесь обращаться к нам.</p>
           </div>
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-full flex items-center justify-between gap-2 flex-col md:flex-row">
-          <p className="text-sm text-gray-500">&copy; {currentDate} VSHOT</p>
+          <p className="text-sm text-gray-500">&copy; {currentDate} VOLGASHOT</p>
         </div>
       </div>
     </footer>
