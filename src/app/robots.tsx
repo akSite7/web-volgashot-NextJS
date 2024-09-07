@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "yandex",
         allow: "/",
-        disallow: ["/fractions", "/buckshots", "/other"],
+        disallow: ["/fractions", "/buckshots", "/others", "/contacts"],
       }
     ],
     sitemap: `${process.env.NEXT_PUBLIC_BASE_URL}/sitemap.xml`,
