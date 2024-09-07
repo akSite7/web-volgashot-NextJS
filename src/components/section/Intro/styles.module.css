@@ -62,7 +62,7 @@
 ;}
 
 .introActionPrimary {
-  @apply w-full px-4 py-2 rounded-md font-medium text-center bg-indigo-600 text-gray-50
+  @apply w-full px-4 py-2 rounded-md font-medium text-center bg-indigo-600 text-gray-50 hover:bg-indigo-600
 ;}
 
 .introActionOutline {
