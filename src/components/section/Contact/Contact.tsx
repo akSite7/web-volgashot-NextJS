@@ -32,7 +32,7 @@ const Contact = () => {
             </li>
             <li className={styles.contactItem}>
               <span className={styles.contactSpan}>E-mail: </span>
-              <span itemProp="email">arsavva@mail.ru</span>
+              <span itemProp="email">info@volgashot.ru</span>
             </li>
           </ul>
         </div>
