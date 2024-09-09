@@ -28,7 +28,7 @@ const Header = () => {
           <Link target="blank" href={'https://www.wildberries.ru/brands/310426872-vshot'} className={styles.headerMarketLink}>
             Wildberries
           </Link>
-          <Link target="blank" href={'https://www.ozon.ru/brand/vshot-100972906/'} className={styles.headerMarketLink}>
+          <Link target="blank" href={'https://www.ozon.ru/seller/volgashot-2290576/'} className={styles.headerMarketLink}>
             Ozon
           </Link>
         </div>
