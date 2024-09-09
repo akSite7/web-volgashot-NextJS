@@ -38,7 +38,7 @@ const Footer = () => {
                     <Link href={'/contacts'} className={styles.footerPagesLink}>Контакты</Link>
                 </li>
                 <li>
-                    <Link target="blank" href={'https://www.ozon.ru/seller/volgashot-2290576/'} className={styles.footerPagesLink}>OZON</Link>
+                    <Link target="blank" href={'https://www.ozon.ru/seller/ofitsialnyy-magazin-vshot-442698'} className={styles.footerPagesLink}>OZON</Link>
                 </li>
                 <li>
                     <Link target="blank" href={'https://www.wildberries.ru/brands/310426872-vshot'} className={styles.footerPagesLink}>Wildberries</Link>
