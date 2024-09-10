@@ -8,10 +8,6 @@ const MenuList = [
     href: '/buckshots'
   },
   { 
-    label: 'Прочее', 
-    href: '/others'
-  },
-  { 
     label: 'Контакты', 
     href: '/contacts'
   },
