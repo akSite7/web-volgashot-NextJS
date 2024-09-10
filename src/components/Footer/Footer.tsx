@@ -27,7 +27,7 @@ const Footer = () => {
                     <Link href={'/buckshots'} className={styles.footerPagesLink}>Картечь</Link>
                 </li>
                 <li>
-                    <Link href={'/others'} className={styles.footerPagesLink}>Прочее</Link>
+                    <Link href={'/contacts'} className={styles.footerPagesLink}>Контакты</Link>
                 </li>
               </ul>
             </div>
@@ -35,7 +35,7 @@ const Footer = () => {
               <h3 className={styles.footerPagesTitle}>Дополнительно</h3>
               <ul className={styles.footerPagesItems}>
                 <li>
-                    <Link href={'/contacts'} className={styles.footerPagesLink}>Контакты</Link>
+                    <Link target="blank" href={'https://market.yandex.ru/business--volgashot/157927988'} className={styles.footerPagesLink}>Яндекс маркет</Link>
                 </li>
                 <li>
                     <Link target="blank" href={'https://www.ozon.ru/seller/ofitsialnyy-magazin-vshot-442698'} className={styles.footerPagesLink}>OZON</Link>
