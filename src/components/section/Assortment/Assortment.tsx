@@ -18,17 +18,11 @@ const Assortment = () => {
             /
             <input className="pointer" type="radio" name="tab-btn" id="tab-btn-2" value=""/>
             <label className="pointer ml-5 mr-5" htmlFor="tab-btn-2">Картечь</label>
-            /
-            <input className="pointer" type="radio" name="tab-btn" id="tab-btn-3" value=""/>
-            <label className="pointer ml-5" htmlFor="tab-btn-3">Прочее</label>
             <div className="tab-content grid grid-cols-4" id="content-1">
               <Fraction />
             </div>
             <div className="tab-content" id="content-2">
               <Buckshot />
-            </div>
-            <div className="tab-content" id="content-3">
-              <Other />
             </div>
           </div>
         </div>
