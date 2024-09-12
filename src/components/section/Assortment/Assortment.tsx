@@ -4,7 +4,6 @@ import React from "react";
 import styles from './styles.module.css';
 import Fraction from "./category/Fraction/Fraction";
 import Buckshot from "./category/Buckshot/Buckshot";
-import Other from "./category/Other/Other";
 
 const Assortment = () => {
   return (
