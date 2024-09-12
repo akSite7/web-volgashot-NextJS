@@ -26,7 +26,7 @@ const Header = () => {
         </div>
         <div className={styles.headerMarketItem}>
           <Link target="blank" href={'https://market.yandex.ru/business--volgashot/157927988'} className={styles.headerMarketLink}>
-            Яндекс маркет
+            Яндекс Маркет
           </Link>
           <Link target="blank" href={'https://www.wildberries.ru/brands/310426872-vshot'} className={styles.headerMarketLink}>
             Wildberries
