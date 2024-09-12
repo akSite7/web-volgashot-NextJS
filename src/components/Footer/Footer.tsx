@@ -35,7 +35,7 @@ const Footer = () => {
               <h3 className={styles.footerPagesTitle}>Дополнительно</h3>
               <ul className={styles.footerPagesItems}>
                 <li>
-                    <Link target="blank" href={'https://market.yandex.ru/business--volgashot/157927988'} className={styles.footerPagesLink}>Яндекс маркет</Link>
+                    <Link target="blank" href={'https://market.yandex.ru/business--volgashot/157927988'} className={styles.footerPagesLink}>Яндекс Маркет</Link>
                 </li>
                 <li>
                     <Link target="blank" href={'https://www.ozon.ru/seller/ofitsialnyy-magazin-vshot-442698'} className={styles.footerPagesLink}>OZON</Link>
