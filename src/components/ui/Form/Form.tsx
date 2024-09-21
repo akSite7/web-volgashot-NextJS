@@ -10,7 +10,7 @@ const Form = () => {
   const [ formField, setFormField ] = useState(false);
 
   useEffect(() => {
-    if ( name && tel && email) {
+    if ( name && tel) {
         setFormField(true);
     } else {
         setFormField(false);
