@@ -40,6 +40,7 @@ const Form = () => {
         <input required className={styles.feedbackInputDouble} onChange={(e) => setTel(e.target.value)} type="tel" placeholder="Телефон" />
       </div>
       <textarea className={styles.feedbackArea} onChange={(e) => setComment(e.target.value)} placeholder="Комментарий" />
+      <p className={styles.feedbackPolice}>Нажимая кнопку, вы соглашаетесь на обработку персональных данных и с политикой конфиденциальности</p>
       <button type="submit" disabled={!formField} className={styles.feedbackSubmit} onClick={() => saveFields()}>Отправить</button>
     </form>
   )
