@@ -6,7 +6,6 @@ import GlobalApi from "@/utils/GlobalApi";
 const Form = () => {
   const [ name,  setName ] = useState('');
   const [ tel,  setTel ] = useState('');
-  const [ email,  setEmail ] = useState('');
   const [ comment,  setComment ] = useState('');
   const [ formField, setFormField ] = useState(false);
 
@@ -16,14 +15,13 @@ const Form = () => {
     } else {
         setFormField(false);
     }
-  }, [ name, tel, email ]);
+  }, [ name, tel ]);
 
   const saveFields = () => {
     const data = {
       data: {
         name: name,
         tel: tel,
-        email: email,
         comment: comment,
       }
     }
@@ -40,10 +38,8 @@ const Form = () => {
       <input required className={styles.feedbackInput} type="text" onChange={(e) => setName(e.target.value)} placeholder="Ваше имя" />
       <div className={styles.feedbackInputNano}>
         <input required className={styles.feedbackInputDouble} onChange={(e) => setTel(e.target.value)} type="tel" placeholder="Телефон" />
-        <input className={styles.feedbackInputDouble} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Почта" />
       </div>
       <textarea className={styles.feedbackArea} onChange={(e) => setComment(e.target.value)} placeholder="Комментарий" />
-      <p className={styles.feedbackPolice}>Нажимая кнопку, вы соглашаетесь на обработку персональных данных и с политикой конфиденциальности</p>
       <button type="submit" disabled={!formField} className={styles.feedbackSubmit} onClick={() => saveFields()}>Отправить</button>
     </form>
   )
