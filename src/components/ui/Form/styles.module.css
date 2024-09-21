@@ -24,18 +24,6 @@
   xxs:pl-0
 ;}
 
-.feedbackInputNano {
-  @apply grid
-
-  /* 2XL */
-  xl:grid-cols-2 
-  xl:gap-5
-
-  /* XXS */
-  xxs:grid-cols-1
-  xxs:gap-0
-;}
-
 .feedbackInputDouble {
   @apply h-14 mb-5 bg-opacity-30 pl-5 bg-black 
 
