@@ -24,6 +24,14 @@
   xxs:pl-0
 ;}
 
+.feedbackInputNano {
+  @apply grid
+  
+  /* XXS */
+  xxs:grid-cols-1
+  xxs:gap-0
+;}
+
 .feedbackInputDouble {
   @apply h-14 mb-5 bg-opacity-30 pl-5 bg-black 
 
@@ -44,7 +52,6 @@
 
   /* XXS */
   xxs:text-center
-
 ;}
 
 .feedbackPolice {
