@@ -35,13 +35,10 @@ const Footer = () => {
               <h3 className={styles.footerPagesTitle}>Дополнительно</h3>
               <ul className={styles.footerPagesItems}>
                 <li>
-                    <Link target="blank" href={'https://market.yandex.ru/business--volgashot/157927988'} className={styles.footerPagesLink}>Яндекс Маркет</Link>
-                </li>
-                <li>
                     <Link target="blank" href={'https://www.ozon.ru/seller/volgashot-2290576/'} className={styles.footerPagesLink}>OZON</Link>
                 </li>
                 <li>
-                    <Link target="blank" href={'https://www.wildberries.ru/brands/310426872-vshot'} className={styles.footerPagesLink}>Wildberries</Link>
+                    <Link target="blank" href={'https://market.yandex.ru/business--volgashot/157927988'} className={styles.footerPagesLink}>Яндекс Маркет</Link>
                 </li>
               </ul>
             </div>
