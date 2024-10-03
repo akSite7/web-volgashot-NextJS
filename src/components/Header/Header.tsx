@@ -29,7 +29,7 @@ const Header = () => {
             Ozon
           </Link>
           <Link target="blank" href={'https://market.yandex.ru/business--volgashot/157927988'} className={styles.headerMarketLink}>
-            Яндес Маркет
+            Яндекс Маркет
           </Link>
         </div>
       </div>
