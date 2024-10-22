@@ -27,7 +27,7 @@
 ;}
 
 .navItem {
-  @apply inline-flex;
+  @apply inline-flex
 ;}
 
 .navLink {
