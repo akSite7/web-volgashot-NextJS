@@ -48,7 +48,7 @@
 ;}
 
 .informItem {
-  @apply flex flex-col items-center bg-action p-5
+  @apply flex flex-col items-center p-5 border rounded border-border bg-action
 
   /* XS */
   xs:h-64
