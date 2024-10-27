@@ -63,7 +63,7 @@
 ;}
 
 .feedbackSubmit {
-  @apply max-h-[50px] px-4 mt-3 py-2 rounded-md font-medium text-center cursor-pointer text-gray-50 bg-indigo-600 hover:bg-hover
+  @apply max-h-[50px] px-4 mt-3 py-2 rounded-md font-medium text-center cursor-pointer text-gray-50 bg-indigo-600
   
   /* 2XL */
   xl:w-4/12
