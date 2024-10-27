@@ -1,5 +1,5 @@
 .footer {
-  @apply w-full py-10 border-t border-gray-800
+  @apply w-full py-10 border-t border-gray-800 border-t border-border
 ;}
 
 .footerContainer {
