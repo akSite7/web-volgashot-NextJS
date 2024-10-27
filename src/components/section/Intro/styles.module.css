@@ -55,16 +55,17 @@
 ;}
 
 .introActionItem {
-  @apply inline-flex w-full 
+  @apply inline-flex text-center
   
   /* SM */ 
   sm:w-auto
 ;}
 
 .introActionPrimary {
-  @apply w-full px-4 py-2 rounded-md font-medium text-center bg-indigo-600 text-gray-50
+  @apply w-full px-4 py-2 font-medium rounded bg-indigo-600 border border-border
 ;}
 
 .introActionOutline {
-  @apply w-full px-4 py-2 font-medium text-center border rounded-lg text-gray-200 border-gray-800 bg-white/5 
+  @apply w-full px-4 py-2 font-medium rounded bg-action border border-border
 ;}
+
