@@ -63,7 +63,7 @@
 ;}
 
 .feedbackSubmit {
-  @apply px-4 mt-3 py-2 rounded-md font-medium cursor-pointer border border-border bg-indigo-600
+  @apply px-4 mt-3 py-2 rounded font-medium cursor-pointer border border-border bg-indigo-600
   
   /* 2XL */
   xl:w-4/12
