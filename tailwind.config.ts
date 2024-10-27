@@ -28,7 +28,7 @@ module.exports = {
       colors: {
         background: '#0E0D13',
         action: '#121117',
-        hover: '#0e4bf1',
+        border: '#191919',
       }
     },
   },
