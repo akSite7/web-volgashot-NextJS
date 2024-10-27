@@ -39,7 +39,7 @@
 ;}
 
 .headerMarketLink {
-  @apply px-4 py-2 text-center border rounded border-[#191919] bg-[#121117]
+  @apply px-4 py-2 text-center border rounded border-border bg-action
 
   /* MD */
   md:block
