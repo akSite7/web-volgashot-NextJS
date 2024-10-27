@@ -1,13 +1,16 @@
 .intro {
-  @apply w-full pt-6 bg-no-repeat bg-[length:1000px_1000px] bg-[left_95%_top_380%]
+  @apply w-full pt-6 bg-no-repeat bg-[length:800px_900px] bg-[left_95%_top_380%]
 
   /* 2XL */
-  2xl:h-screen
   2xl:bg-gun
-  2xl:pb-0
+  2xl:pb-72
 
   /* MD */
-  md:py-16
+  md:py-24
+  md:pb-16
+  
+  /* XXS */
+  xxs:pb-10
 ;}
 
 .introContainer {
@@ -68,4 +71,76 @@
 .introActionOutline {
   @apply w-full px-4 py-2 font-medium rounded bg-action border border-border
 ;}
+.intro {
+  @apply w-full pt-6 bg-no-repeat bg-[length:800px_900px] bg-[left_95%_top_380%]
 
+  /* 2XL */
+  2xl:bg-gun
+  2xl:pb-72
+
+  /* MD */
+  md:py-24
+  md:pb-16
+  
+  /* XXS */
+  xxs:pb-10
+;}
+
+.introContainer {
+  @apply container mx-auto
+;}
+
+.introContent {
+  @apply grid pt-8 pb-10 gap-4 
+
+  /* 2XL */
+  2xl:grid-cols-[55%,45%]
+
+  /* MD */
+  md:pb-0
+;}
+
+.introLeft {
+  @apply w-full flex items-start flex-col gap-10
+;}
+
+.introTitle {
+  @apply text-3xl font-medium text-gray-50
+  
+  /* MD */
+  md:text-6xl
+;}
+
+.introActions {
+  @apply flex flex-col w-full gap-5
+
+  /* SM */
+  sm:w-auto 
+  sm:flex-row
+;}
+
+.introText {
+  @apply text-lg text-gray-500
+;}
+
+.introBottom {
+  @apply flex items-start flex-col gap-14
+
+  /* MD */
+  md:w-4/5
+;}
+
+.introActionItem {
+  @apply inline-flex text-center
+  
+  /* SM */ 
+  sm:w-auto
+;}
+
+.introActionPrimary {
+  @apply w-full px-4 py-2 font-medium rounded bg-indigo-600 border border-border
+;}
+
+.introActionOutline {
+  @apply w-full px-4 py-2 font-medium rounded bg-action border border-border
+;}
