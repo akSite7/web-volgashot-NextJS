@@ -1,5 +1,5 @@
 .header {
-  @apply w-full py-6 border-b border-gray-800
+  @apply w-full py-6
 ;}
 
 .headerContainer {
@@ -39,7 +39,7 @@
 ;}
 
 .headerMarketLink {
-  @apply px-4 py-2  border border-gray-800 bg-white/5 rounded-md text-center hover:bg-indigo-600
+  @apply px-4 py-2 text-center border rounded border-[#191919] bg-[#121117]
 
   /* MD */
   md:block
