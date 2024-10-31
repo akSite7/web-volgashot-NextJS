@@ -12,7 +12,7 @@ const Buckshot = () => {
     <section className={styles.assortment}>
       <div className={styles.assortmentContainer}>
         <h2 className={styles.assortmentTitle}>Картечь</h2>
-        <p className={styles.assortmentDescription}>Возможность заказа от 2 килограмм.</p>
+        <p className={styles.assortmentDescription}>Размеры соответствуют ГОСТ 7837-76<br />Возможность заказа от 2 килограмм.</p>
         <div className={styles.assortmentCard}>
           {getBuckshot.filter((item: Shot) => item.attributes.tag === 'Картечь').map((item: Shot, index) => (
             <div key={index}>
