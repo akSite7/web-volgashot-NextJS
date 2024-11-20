@@ -38,6 +38,9 @@ const Footer = () => {
                     <Link target="blank" href={'https://www.ozon.ru/seller/volgashot-2290576/'} className={styles.footerPagesLink}>OZON</Link>
                 </li>
                 <li>
+                    <Link target="blank" href={'https://www.wildberries.ru/seller/4306216#c287942850'} className={styles.footerPagesLink}>Wildberries</Link>
+                </li>
+                <li>
                     <Link target="blank" href={'https://market.yandex.ru/business--volgashot/157927988'} className={styles.footerPagesLink}>Яндекс Маркет</Link>
                 </li>
               </ul>
