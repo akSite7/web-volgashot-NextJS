@@ -28,6 +28,9 @@ const Header = () => {
           <Link target="blank" href={'https://www.ozon.ru/seller/volgashot-2290576/'} className={styles.headerMarketLink}>
             Ozon
           </Link>
+          <Link target="blank" href={'https://www.ozon.ru/seller/volgashot-2290576/'} className={styles.headerMarketLink}>
+            Wildberries
+          </Link>
           <Link target="blank" href={'https://market.yandex.ru/business--volgashot/157927988'} className={styles.headerMarketLink}>
             Яндекс Маркет
           </Link>
