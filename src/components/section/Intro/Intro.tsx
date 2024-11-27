@@ -28,8 +28,8 @@ const Intro = () => {
                 </div>
               </div>
             </li>
-            <li>
-              <Image alt="Картинка оружия" width={2000} height={0} src="/assets/img/intro/gun.svg"></Image>
+            <li >
+              <Image  alt="Картинка оружия" className={styles.introImage} width={2000} height={0} src="/assets/img/intro/gun.svg"></Image>
             </li>
           </ul>
         </div>
