@@ -29,7 +29,7 @@ const Intro = () => {
               </div>
             </li>
             <li>
-              <Image alt="" width={900} height={400} src="/public/assets/img/intro/gun.svg"></Image>
+              <Image alt="Картинка оружия" width={2000} height={0} src="/assets/img/intro/gun.svg"></Image>
             </li>
           </ul>
         </div>
