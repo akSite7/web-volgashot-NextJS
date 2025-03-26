@@ -28,7 +28,7 @@ const Contact = () => {
             <li className={styles.contactItem}>
               <span className={styles.contactSpan}>Телефон: </span>
               <span itemProp="telephone">+7 961 685-32-12</span>, 
-              <span itemProp="faxNumber">+7 961 685-32-12</span>
+              <span itemProp="faxNumber"> +7 978 588-06-48</span>
             </li>
             <li className={styles.contactItem}>
               <span className={styles.contactSpan}>E-mail: </span>
